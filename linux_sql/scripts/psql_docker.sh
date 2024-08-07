@@ -18,7 +18,7 @@
 	fi
 
 	if [ $# -ne 3 ]; then
-	   echo 'Ceate requires username and password'
+	   echo 'Create requires username and password'
    	   exit 1
 	fi
 
@@ -44,7 +44,7 @@
 	*)
 
 	echo 'Illegal command'
-	echo 'Commands : start|stop|create
+	echo 'Commands : start|stop|create'
 	exit 1
 	;;
 
