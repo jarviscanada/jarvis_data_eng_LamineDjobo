@@ -21,7 +21,7 @@ lscpu_out=$(lscpu)
 cpu_number=$(echo "$lscpu_out" | grep '^CPU(s):' | awk '{print $2}' | xargs)
 cpu_architecture=$(echo "$lscpu_out" | grep 'Architecture' | awk '{print $2}' | xargs)
 cpu_model=$(echo "$lscpu_out" | awk -F ': ' '/Model name/ {print $2}' | xargs)
-cpu_MHz=$(echo "$lscpu_out" | grep 'CPU MHz' | awk '{print $3}' | xargs)
+cpu_mhz=$(grep 'cpu MHz' /proc/cpuinfo | head -n 1 | awk '{print $4}')
 l2_cache=$(echo "$lscpu_out" | grep 'L2 cache' | awk '{print $3}' | sed 's/K//' | xargs)
 total_mem=$(vmstat --unit M | awk 'NR==3 {print $3}' | xargs)
 
