@@ -24,7 +24,8 @@
 	disk_available=$(df -BM / | awk 'NR==2 {print $4}' | sed 's/[^0-9]//g')
 
 
-	timestamp=$(vmstat -t | awk 'NR==3 {print $18,$19}')
+	timestamp=timestamp=$(date '+%d-%m-%Y %H:%M:%S')
+
 
 	host_id=$(psql -h $psql_host -p $psql_port -d $db_name -U $psql_user -t -c "SELECT id FROM host_info WHERE hostname='$hostname';"| xargs)
 

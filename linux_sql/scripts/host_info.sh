@@ -11,7 +11,6 @@ if [ "$#" -ne 5 ]; then
     exit 1
 fi
 
-if [ -z "$cpu_MHz" ]; then
     cpu_MHz="2300"
 fi
 
@@ -21,12 +20,13 @@ lscpu_out=$(lscpu)
 
 cpu_number=$(echo "$lscpu_out" | grep '^CPU(s):' | awk '{print $2}' | xargs)
 cpu_architecture=$(echo "$lscpu_out" | grep 'Architecture' | awk '{print $2}' | xargs)
-cpu_model=$(echo "$lscpu_out" | grep 'Model name' | awk '{for (i=3;i<=NF;i++) printf $i " "; print ""}' | xargs)
+cpu_model=$(echo "$lscpu_out" | awk -F ': ' '/Model name/ {print $2}' | xargs)
 cpu_MHz=$(echo "$lscpu_out" | grep 'CPU MHz' | awk '{print $3}' | xargs)
 l2_cache=$(echo "$lscpu_out" | grep 'L2 cache' | awk '{print $3}' | sed 's/K//' | xargs)
 total_mem=$(vmstat --unit M | awk 'NR==3 {print $3}' | xargs)
 
-timestamp=$(vmstat -t | awk 'NR==3 {print $18, $19}' | xargs)
+
+timestamp=$(date '+%d-%m-%Y %H:%M:%S')
 
 export PGPASSWORD=$psql_password
 
@@ -34,4 +34,3 @@ insert_stmt="INSERT INTO host_info (hostname, cpu_number, cpu_architecture, cpu_
 
 psql -h $psql_host -p $psql_port -d $db_name -U $psql_user -c "$insert_stmt"
 exit $?
-
