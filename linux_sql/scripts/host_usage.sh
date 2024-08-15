@@ -1,4 +1,3 @@
-#!bin/bash 
 
 	psql_host=$1
 	psql_port=$2
@@ -13,6 +12,8 @@
 
 	fi
 
+	export PGPASSWORD=$psql_password
+
 	vmstat_mb=$(vmstat --unit M)
 	hostname=$(hostname -f)
 
@@ -24,7 +25,8 @@
 	disk_available=$(df -BM / | awk 'NR==2 {print $4}' | sed 's/[^0-9]//g')
 
 
-	timestamp=timestamp=$(date '+%d-%m-%Y %H:%M:%S')
+	timestamp=$(date '+%Y-%m-%d %H:%M:%S')
+
 
 
 	host_id=$(psql -h $psql_host -p $psql_port -d $db_name -U $psql_user -t -c "SELECT id FROM host_info WHERE hostname='$hostname';"| xargs)
@@ -34,7 +36,6 @@
 
 	insert_stmt="INSERT INTO host_usage (timestamp,memory_free,cpu_idle,cpu_kernel,disk_io,disk_available,host_id) VALUES ('$timestamp','$memory_free','$cpu_idle','$cpu_kernel','$disk_io','$disk_available',$host_id);"
 
-	export PGPASSWORD=$psql_password
 
 	psql -h $psql_host -p $psql_port -d $db_name -U $psql_user -c "$insert_stmt"
 	

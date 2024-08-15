@@ -1,7 +1,7 @@
--- Switch to the host_agent database
+
 -- \c host_agent redondan since the excecution below -d will access the database automatically
 
--- Create the host_info table if it does not exist
+
 CREATE TABLE IF NOT EXISTS host_info (
     id SERIAL PRIMARY KEY,
     hostname VARCHAR(255) NOT NULL,
@@ -14,7 +14,7 @@ CREATE TABLE IF NOT EXISTS host_info (
     timestamp TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
 );
 
--- Create the host_usage table if it does not exist
+
 CREATE TABLE IF NOT EXISTS host_usage (
     id SERIAL PRIMARY KEY,
     timestamp TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,

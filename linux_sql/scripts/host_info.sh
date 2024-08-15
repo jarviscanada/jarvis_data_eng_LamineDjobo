@@ -11,8 +11,7 @@ if [ "$#" -ne 5 ]; then
     exit 1
 fi
 
-    cpu_MHz="2300"
-fi
+export PGPASSWORD=$psql_password   
 
 
 hostname=$(hostname -f)
@@ -26,9 +25,7 @@ l2_cache=$(echo "$lscpu_out" | grep 'L2 cache' | awk '{print $3}' | sed 's/K//' 
 total_mem=$(vmstat --unit M | awk 'NR==3 {print $3}' | xargs)
 
 
-timestamp=$(date '+%d-%m-%Y %H:%M:%S')
-
-export PGPASSWORD=$psql_password
+timestamp=$(date '+%Y-%m-%d %H:%M:%S')
 
 insert_stmt="INSERT INTO host_info (hostname, cpu_number, cpu_architecture, cpu_model, cpu_MHz, l2_cache, total_mem, timestamp) VALUES ('$hostname', '$cpu_number', '$cpu_architecture', '$cpu_model', '${cpu_MHz:-2300}', '$l2_cache', '$total_mem', '$timestamp');"
 
