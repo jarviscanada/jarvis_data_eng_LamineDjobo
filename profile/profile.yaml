@@ -20,7 +20,7 @@ skills:
   # At least 5 skills
   competent:
     - JavaScript
-    - MongoDb
+    - MongoDB
     - HTML/CSS
     - React Native
     - Expo
@@ -63,7 +63,7 @@ professional_experience:
   - title: "Web & Mobile developper"
     company: "Win technologies"
     duration: "February 2024-August  2024"
-    description: "Led the development of user-friendly web and mobile interfaces using JavaScript, React.js, and React Native, enhancing user experience through optimized UX/UI design. Implemented back-end functionalities with Node.js and MongoDB, including CRUD operations and JWT authentication, ensuring secure and efficient data management. Contributed to project deployment and maintenance using Jenkins/GitHub Actions, overseeing the successful launch of applications. Collaborated closely with design and back-end teams to refine product features, significantly improving project delivery timelines."
+    description: "Led the development of user-friendly web and mobile interfaces using JavaScript, React.js, and React Native, enhancing user experience through optimized UX/UI design. Implemented back-end functionalities with Node.js and MongoDB, including CRUD operations and JWT authentication, ensuring secure and efficient data management. Contributed to project deployment and maintenance using Jenkins, overseeing the successful launch of applications. Collaborated closely with design and back-end teams to refine product features, significantly improving project delivery timelines."
   - title: "Senior Financial Advisor"
     company: "Scotia Bank"
     duration: "January 2022-January 2023"

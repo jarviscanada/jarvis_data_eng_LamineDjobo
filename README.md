@@ -6,7 +6,7 @@ I'm a professional with 6 years\' solid experience in banking as a financial adv
 
 **Proficient:** Java, Linux/Bash, RDBMS/SQL, Agile/Scrum, Git
 
-**Competent:** JavaScript, MongoDb, HTML/CSS, React Native, Expo
+**Competent:** JavaScript, MongoDB, HTML/CSS, React Native, Expo
 
 **Familiar:** Node.js, Express.js, Typescript, Azure, Figma
 
@@ -28,7 +28,7 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_LamineDjob
 
 **Software Developer, Jarvis (August 2024-present)**: Drive software development projects in an Agile/Scrum environment, focusing on delivering high-quality, up-to-date solutions. Leverage the latest technologies and industry trends to create scalable and efficient applications. Engage in all phases of the software development lifecycle.
 
-**Web & Mobile developper, Win technologies (February 2024-August  2024)**: Led the development of user-friendly web and mobile interfaces using JavaScript, React.js, and React Native, enhancing user experience through optimized UX/UI design. Implemented back-end functionalities with Node.js and MongoDB, including CRUD operations and JWT authentication, ensuring secure and efficient data management. Contributed to project deployment and maintenance using Jenkins/GitHub Actions, overseeing the successful launch of applications. Collaborated closely with design and back-end teams to refine product features, significantly improving project delivery timelines.
+**Web & Mobile developper, Win technologies (February 2024-August  2024)**: Led the development of user-friendly web and mobile interfaces using JavaScript, React.js, and React Native, enhancing user experience through optimized UX/UI design. Implemented back-end functionalities with Node.js and MongoDB, including CRUD operations and JWT authentication, ensuring secure and efficient data management. Contributed to project deployment and maintenance using Jenkins, overseeing the successful launch of applications. Collaborated closely with design and back-end teams to refine product features, significantly improving project delivery timelines.
 
 **Senior Financial Advisor, Scotia Bank (January 2022-January 2023)**: Advised clients on investments, increasing portfolio values in Q1 2022. Trained and mentored new team members, improving onboarding efficiency. Streamlined mortgage processes, enhancing team productivity and fostering a collaborative work environment.
 
