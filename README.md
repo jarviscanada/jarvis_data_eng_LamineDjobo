@@ -17,22 +17,6 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_LamineDjob
 
 **Cluster Monitor** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_LamineDjobo/tree/master/linux_sql)]: Developed a Linux-based monitoring tool to track and manage server performance across a cluster. Implemented in Bash and SQL, this tool automates the collection of hardware specifications and resource usage data, storing the information in a PostgreSQL database. Leveraged cron jobs for scheduled monitoring and real-time alerts. Utilized Git for version control and collaboration, ensuring efficient project management and deployment. This project showcases expertise in shell scripting and database integration within a Linux environment.
 
-**Core Java Apps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_LamineDjobo/tree/master/core_java)]:
-      
-  - Twitter App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.
-  - JDBC App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.
-  - Grep App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.
-
-**Springboot App** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_LamineDjobo/tree/master/springboot)]: Not Started
-
-**Python Data Analytics** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_LamineDjobo/tree/master/python_data_anlytics)]: Not Started
-
-**Hadoop** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_LamineDjobo/tree/master/hadoop)]: Not Started
-
-**Spark** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_LamineDjobo/tree/master/spark)]: Not Started
-
-**Cloud/DevOps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_LamineDjobo/tree/master/cloud_devops)]: Not Started
-
 
 ## Highlighted Projects
 **Dors-tu-bébé**: Worked on the development of a mobile application called 'Dors-tu-bébé,' designed to generate and narrate personalized bedtime stories for young children. Utilized the OpenAI/ChatGPT API to create dynamic story content and integrated OpenAI's voice function for narration. Developed the application using Kotlin/Java, with Firebase for backend services and MongoDB for data storage, all within the Android Studio environment. This project highlights skills in mobile app development, API integration, and cloud-based database management
@@ -42,23 +26,25 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_LamineDjob
 
 ## Professional Experiences
 
-**Software Developer, Jarvis (2020-present)**: Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis.
+**Software Developer, Jarvis (August 2024-present)**: Drive software development projects in an Agile/Scrum environment, focusing on delivering high-quality, up-to-date solutions. Leverage the latest technologies and industry trends to create scalable and efficient applications. Engage in all phases of the software development lifecycle.
 
-**Tutor, XYZ Company (2019)**: Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis.
+**Web & Mobile developper, Win technologies (February 2024-August  2024)**: Led the development of user-friendly web and mobile interfaces using JavaScript, React.js, and React Native, enhancing user experience through optimized UX/UI design. Implemented back-end functionalities with Node.js and MongoDB, including CRUD operations and JWT authentication, ensuring secure and efficient data management. Contributed to project deployment and maintenance using Jenkins/GitHub Actions, overseeing the successful launch of applications. Collaborated closely with design and back-end teams to refine product features, significantly improving project delivery timelines.
+
+**Senior Financial Advisor, Scotia Bank (January 2022-January 2023)**: Advised clients on investments, increasing portfolio values in Q1 2022. Trained and mentored new team members, improving onboarding efficiency. Streamlined mortgage processes, enhancing team productivity and fostering a collaborative work environment.
+
+**Senior Financial Advisor, Royal Bank of Canada (RBC) (September 2017-January 2022)**: Provided personalized financial advice, resolving client issues with strong problem-solving skills. Managed credit applications with a client-first approach. Built strong client relationships and collaborated with team members, boosting overall customer satisfaction.
 
 
 ## Education
-**XYZ university (2012-2016)**, Bachelor of Applied Sciences, Electrical and Computer Engineering
-- Scholarship
-- Dean's List (2015, 2016): Ut enim ad minim veniam
-- GPA: 3.8/4.0
+**Ahuntsic College (2023-2024)**, Attestation of Collegial Studies, Computer Science
 
-**XYZ university (2016-2018)**, Master of Engineering, Electrical and Computer Engineering
+**University of Quebec in Montreal (2012-2016)**, Bachelor in Economics and Finance, Economic
 
 
 ## Miscellaneous
-- Udacity Machine Learning (2019)
-- Winner
-- Basketball player
-- Competitive gaming
-- Volunteer, ABC Food bank: Ut enim ad minim veniam
+- Recipient of the 'Best of the Best Banker' award at Scotia Bank
+- Soccer player of D1 Pierrefonds Team
+- Competitive gymnast, winner of Junior senegal tournament in 2009
+- Volunteer, organized charity soccer matches featuring personalities to raise funds for children with leukemia
+- Avid traveler, visited countries across all continents
+- Gym enthusiast, committed to regular fitness training 3-4x/week

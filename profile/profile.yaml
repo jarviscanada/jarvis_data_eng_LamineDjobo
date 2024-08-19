@@ -39,28 +39,7 @@ jarvis_projects:
     # The project description allows hiring managers to understand your project and technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
     # The project description must start with an action verb (https://bit.ly/3guO98u)
     description: "Developed a Linux-based monitoring tool to track and manage server performance across a cluster. Implemented in Bash and SQL, this tool automates the collection of hardware specifications and resource usage data, storing the information in a PostgreSQL database. Leveraged cron jobs for scheduled monitoring and real-time alerts. Utilized Git for version control and collaboration, ensuring efficient project management and deployment. This project showcases expertise in shell scripting and database integration within a Linux environment."
-  - name: "Core Java Apps"
-    git_url: "/core_java"
-    description:
-      - "Twitter App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
-      - "JDBC App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
-      - "Grep App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
-  - name: "Springboot App"
-    git_url: "/springboot"
-    description: ""
-  - name: "Python Data Analytics"
-    git_url: "/python_data_anlytics"
-    description: ""
-  - name: "Hadoop"
-    git_url: "/hadoop"
-    description: ""
-  - name: "Spark"
-    git_url: "/spark"
-    description: ""
-  - name: "Cloud/DevOps"
-    git_url: "/cloud_devops"
-    description: ""
-
+  
 # List of personal or academic projects
 # Feel free to add more projects
 highlighted_projects:
@@ -78,43 +57,46 @@ professional_experience:
   #Write your Jarvis role as a professional experience rather than training.
   - title: "Software Developer"
     company: "Jarvis"
-    duration: "2020-present"
+    duration: "August 2024-present"
     # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: "Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis."
-  - title: "Tutor"
-    company: "XYZ Company"
-    duration: "2019"
-    description: "Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis."
+    description: "Drive software development projects in an Agile/Scrum environment, focusing on delivering high-quality, up-to-date solutions. Leverage the latest technologies and industry trends to create scalable and efficient applications. Engage in all phases of the software development lifecycle."
+  - title: "Web & Mobile developper"
+    company: "Win technologies"
+    duration: "February 2024-August  2024"
+    description: "Led the development of user-friendly web and mobile interfaces using JavaScript, React.js, and React Native, enhancing user experience through optimized UX/UI design. Implemented back-end functionalities with Node.js and MongoDB, including CRUD operations and JWT authentication, ensuring secure and efficient data management. Contributed to project deployment and maintenance using Jenkins/GitHub Actions, overseeing the successful launch of applications. Collaborated closely with design and back-end teams to refine product features, significantly improving project delivery timelines."
+  - title: "Senior Financial Advisor"
+    company: "Scotia Bank"
+    duration: "January 2022-January 2023"
+    description: "Advised clients on investments, increasing portfolio values in Q1 2022. Trained and mentored new team members, improving onboarding efficiency. Streamlined mortgage processes, enhancing team productivity and fostering a collaborative work environment."
+  - title: "Senior Financial Advisor"
+    company: "Royal Bank of Canada (RBC)"
+    duration: "September 2017-January 2022"
+    description: "Provided personalized financial advice, resolving client issues with strong problem-solving skills. Managed credit applications with a client-first approach. Built strong client relationships and collaborated with team members, boosting overall customer satisfaction."  
 
 #List of edcuation
 education: 
-  - school_name: "XYZ university"
-    duration: "2012-2016"
-    degree: "Bachelor of Applied Sciences"
-    department: "Electrical and Computer Engineering"
+  - school_name: "Ahuntsic College"
+    duration: "2023-2024"
+    degree: "Attestation of Collegial Studies"
+    department: "Computer Science"
     # optional
-    awards_achievements: 
-      - "Scholarship"
-      - "Dean's List (2015, 2016): Ut enim ad minim veniam"
-      - "GPA: 3.8/4.0"
-  - school_name: "XYZ university"
-    duration: "2016-2018"
-    degree: "Master of Engineering"
-    department: "Electrical and Computer Engineering"
-    awards_achievements: 
+    awards_achievements:
+  - school_name: "University of Quebec in Montreal"
+    duration: "2012-2016"
+    degree: "Bachelor in Economics and Finance"
+    department: "Economic"
+    awards_achievements:
 
 #Optional section
 others:
     #category
-  - title: "Certificates"
-    #list of items
-    bullets:
-      - "Udacity Machine Learning (2019)"
   - title: "Awards"
     bullets:
-      - "Winner"
+      - "Recipient of the 'Best of the Best Banker' award at Scotia Bank"
   - title: "Activities/Hobbies"
     bullets:
-      - "Basketball player"
-      - "Competitive gaming"
-      - "Volunteer, ABC Food bank: Ut enim ad minim veniam"
+      - "Soccer player of D1 Pierrefonds Team"
+      - "Competitive gymnast, winner of Junior senegal tournament in 2009"
+      - "Volunteer, organized charity soccer matches featuring personalities to raise funds for children with leukemia"
+      - "Avid traveler, visited countries across all continents"
+      - "Gym enthusiast, committed to regular fitness training 3-4x/week"  
