@@ -18,17 +18,17 @@
   "github_repo_root_url": "https://github.com/jarviscanada/jarvis_data_eng_LamineDjobo",
   "highlighted_projects": [
     {
-      "description": "Worked on the development of a mobile application called 'Dors-tu-bébé,' designed to generate and narrate personalized bedtime stories for young children. Utilized the OpenAI/ChatGPT API to create dynamic story content and integrated OpenAI's voice function for narration. Developed the application using Kotlin/Java, with Firebase for backend services and MongoDB for data storage, all within the Android Studio environment. This project highlights skills in mobile app development, API integration, and cloud-based database management",
+      "description": "Worked on the development of a mobile application called 'Dors-tu-bébé,' designed to generate and narrate personalized bedtime stories for young children. Utilized the OpenAI/ChatGPT API to create dynamic story content and integrated OpenAI's voice function for narration. Developed the application using Kotlin/Java, with Firebase for backend services and MongoDB for data storage, all within the Android Studio environment.Conducted thorough manual testing of the user interface, database, and functionalities to ensure a seamless user experience. This project highlights skills in mobile app development, API integration, and cloud-based database management",
       "name": "Dors-tu-bébé"
     },
     {
-      "description": "Built a dynamic e-commerce website using Vue.js for the frontend, offering a responsive and user-friendly shopping experience. Implemented a comprehensive cart system allowing users to manage their selections efficiently. Integrated PayPal API for secure and seamless payment processing. Managed the backend with SQL database for reliable storage and retrieval of product and user data. This project demonstrates proficiency in modern web development and database management.",
+      "description": "Built a dynamic e-commerce website using Vue.js for the frontend, offering a responsive and user-friendly shopping experience. Implemented a comprehensive cart system allowing users to manage their selections efficiently. Integrated PayPal API for secure and seamless payment processing. Managed the backend with SQL database for reliable storage and retrieval of product and user data.Manually verified the accuracy of the user interface, database interactions, and overall functionality to ensure a smooth shopping experience. This project demonstrates proficiency in modern web development and database management.",
       "name": "E-commerce website"
     }
   ],
   "jarvis_projects": [
     {
-      "description": "Developed a Linux-based monitoring tool to track and manage server performance across a cluster. Implemented in Bash and SQL, this tool automates the collection of hardware specifications and resource usage data, storing the information in a PostgreSQL database. Leveraged cron jobs for scheduled monitoring and real-time alerts. Utilized Git for version control and collaboration, ensuring efficient project management and deployment. This project showcases expertise in shell scripting and database integration within a Linux environment.",
+      "description": "Developed a Linux-based monitoring tool to track and manage server performance across a cluster. Implemented in Bash and SQL, this tool automates the collection of hardware specifications and resource usage data, storing the information in a PostgreSQL database.Performed manual testing on the local machine for each script and command.. Leveraged cron jobs for scheduled monitoring and real-time alerts. Utilized Git for version control and collaboration, ensuring efficient project management and deployment. This project showcases expertise in shell scripting and database integration within a Linux environment.",
       "git_url": "/linux_sql",
       "name": "Cluster Monitor"
     }
@@ -61,9 +61,9 @@
     },
     {
       "company": "Win technologies",
-      "description": "Led the development of user-friendly web and mobile interfaces using JavaScript, React.js, and React Native, enhancing user experience through optimized UX/UI design. Implemented back-end functionalities with Node.js and MongoDB, including CRUD operations and JWT authentication, ensuring secure and efficient data management. Contributed to project deployment and maintenance using Jenkins, overseeing the successful launch of applications. Collaborated closely with design and back-end teams to refine product features, significantly improving project delivery timelines.",
+      "description": "Led the development of user-friendly web and mobile interfaces using JavaScript, React.js, and React Native, enhancing user experience through optimized UX/UI design. Implemented back-end functionalities with Node.js and MongoDB, including CRUD operations and JWT authentication, ensuring secure and efficient data management. Conducted end-to-end manual testing by running the application from start to finish, verifying all functionalities to ensure a seamless user experience. Contributed to project deployment and maintenance using Jenkins, overseeing the successful launch of applications. Collaborated closely with design and back-end teams to refine product features, significantly improving project delivery timelines.",
       "duration": "February 2024-August  2024",
-      "title": "Web \u0026 Mobile developper"
+      "title": "Web \u0026 Mobile Developer"
     },
     {
       "company": "Scotia Bank",

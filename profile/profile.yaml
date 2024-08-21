@@ -38,7 +38,7 @@ jarvis_projects:
     git_url: "/linux_sql"
     # The project description allows hiring managers to understand your project and technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
     # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: "Developed a Linux-based monitoring tool to track and manage server performance across a cluster. Implemented in Bash and SQL, this tool automates the collection of hardware specifications and resource usage data, storing the information in a PostgreSQL database. Leveraged cron jobs for scheduled monitoring and real-time alerts. Utilized Git for version control and collaboration, ensuring efficient project management and deployment. This project showcases expertise in shell scripting and database integration within a Linux environment."
+    description: "Developed a Linux-based monitoring tool to track and manage server performance across a cluster. Implemented in Bash and SQL, this tool automates the collection of hardware specifications and resource usage data, storing the information in a PostgreSQL database.Performed manual testing on the local machine for each script and command.. Leveraged cron jobs for scheduled monitoring and real-time alerts. Utilized Git for version control and collaboration, ensuring efficient project management and deployment. This project showcases expertise in shell scripting and database integration within a Linux environment."
   
 # List of personal or academic projects
 # Feel free to add more projects
@@ -47,9 +47,9 @@ highlighted_projects:
   - name: "Dors-tu-bébé"
     #URL is optional
     # The project description must start with an action verb (https://bit.ly/3guO98u#)
-    description: "Worked on the development of a mobile application called 'Dors-tu-bébé,' designed to generate and narrate personalized bedtime stories for young children. Utilized the OpenAI/ChatGPT API to create dynamic story content and integrated OpenAI's voice function for narration. Developed the application using Kotlin/Java, with Firebase for backend services and MongoDB for data storage, all within the Android Studio environment. This project highlights skills in mobile app development, API integration, and cloud-based database management"
+    description: "Worked on the development of a mobile application called 'Dors-tu-bébé,' designed to generate and narrate personalized bedtime stories for young children. Utilized the OpenAI/ChatGPT API to create dynamic story content and integrated OpenAI's voice function for narration. Developed the application using Kotlin/Java, with Firebase for backend services and MongoDB for data storage, all within the Android Studio environment.Conducted thorough manual testing of the user interface, database, and functionalities to ensure a seamless user experience. This project highlights skills in mobile app development, API integration, and cloud-based database management"
   - name: "E-commerce website"
-    description: "Built a dynamic e-commerce website using Vue.js for the frontend, offering a responsive and user-friendly shopping experience. Implemented a comprehensive cart system allowing users to manage their selections efficiently. Integrated PayPal API for secure and seamless payment processing. Managed the backend with SQL database for reliable storage and retrieval of product and user data. This project demonstrates proficiency in modern web development and database management."
+    description: "Built a dynamic e-commerce website using Vue.js for the frontend, offering a responsive and user-friendly shopping experience. Implemented a comprehensive cart system allowing users to manage their selections efficiently. Integrated PayPal API for secure and seamless payment processing. Managed the backend with SQL database for reliable storage and retrieval of product and user data.Manually verified the accuracy of the user interface, database interactions, and overall functionality to ensure a smooth shopping experience. This project demonstrates proficiency in modern web development and database management."
 #List of professional experience
 #The job description allows hiring managers to understand your job and the technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
 #The description must be more than 25 words. If your experience is not software related, please focus on soft skills and achievements (e.g. team collaboration, problem-solving, improvements, communication).
@@ -60,10 +60,10 @@ professional_experience:
     duration: "August 2024-present"
     # The project description must start with an action verb (https://bit.ly/3guO98u)
     description: "Drive software development projects in an Agile/Scrum environment, focusing on delivering high-quality, up-to-date solutions. Leverage the latest technologies and industry trends to create scalable and efficient applications. Engage in all phases of the software development lifecycle."
-  - title: "Web & Mobile developper"
+  - title: "Web & Mobile Developer"
     company: "Win technologies"
     duration: "February 2024-August  2024"
-    description: "Led the development of user-friendly web and mobile interfaces using JavaScript, React.js, and React Native, enhancing user experience through optimized UX/UI design. Implemented back-end functionalities with Node.js and MongoDB, including CRUD operations and JWT authentication, ensuring secure and efficient data management. Contributed to project deployment and maintenance using Jenkins, overseeing the successful launch of applications. Collaborated closely with design and back-end teams to refine product features, significantly improving project delivery timelines."
+    description: "Led the development of user-friendly web and mobile interfaces using JavaScript, React.js, and React Native, enhancing user experience through optimized UX/UI design. Implemented back-end functionalities with Node.js and MongoDB, including CRUD operations and JWT authentication, ensuring secure and efficient data management. Conducted end-to-end manual testing by running the application from start to finish, verifying all functionalities to ensure a seamless user experience. Contributed to project deployment and maintenance using Jenkins, overseeing the successful launch of applications. Collaborated closely with design and back-end teams to refine product features, significantly improving project delivery timelines."
   - title: "Senior Financial Advisor"
     company: "Scotia Bank"
     duration: "January 2022-January 2023"
