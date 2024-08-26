@@ -1,5 +1,55 @@
 # Introduction
 
+This project is designed to help you learn and practice SQL by setting up and interacting with a PostgreSQL database. It involves loading a pre-defined database schema and data, and then testing your SQL skills by answering about 30 different queries related to the data. The database is organized into several tables within a schema named cd, which manages information about club facilities, members, and bookings.
+
+# Quick Start
+
+Before you begin, make sure you have the following installed:
+
+Docker (for running PostgreSQL in a container)
+PostgreSQL client (psql)
+Git (for cloning the repository)
+
+Step 1: Clone the Repository
+Start by cloning the project repository from GitHub, which contains the psql.sh script and the clubdata.sql file.
+
+```bash
+git clone https://github.com/jarviscanada/jarvis_data_eng_LamineDjobo.git
+cd jarvis_data_eng_LamineDjobo
+```
+
+Step 2: Start or Create the PostgreSQL Database
+Use the psql.sh script to either create a new PostgreSQL instance or start an existing one.
+
+To create a new PostgreSQL container:
+
+```bash
+./psql.sh create <container_name> <db_username> <db_password>
+```
+
+Replace <container_name>, <db_username>, and <db_password> with your desired container name, database username, and password.
+
+To start an existing PostgreSQL container:
+
+```bash
+./psql.sh start <container_name>
+```
+Replace <container_name> with the name of your existing container.
+
+Step 3: Connect to the Database
+1.Access the PostgreSQL Database:
+```bash
+docker exec -it pgsql-container psql -U postgres -d postgres
+```
+2.Verify the loaded data:
+After connecting to the database, you can verify the data by listing the tables:
+```sql
+\dt cd.*
+SELECT * FROM cd.members
+```
+This will list all tables in the cd schema and the second one will list all the members from the table cd.members. You can now test locally and try the queries below.
+
+
 # SQL Queries
 
 ###### Table Setup (DDL)
