@@ -37,17 +37,20 @@ To start an existing PostgreSQL container:
 Replace <container_name> with the name of your existing container.
 
 Step 3: Connect to the Database
+
 1.Access the PostgreSQL Database:
 ```bash
-docker exec -it pgsql-container psql -U postgres -d postgres
+psql -U postgres -h localhost -d <database_name>
 ```
+Usually postgres is the name of the default database.
+
 2.Verify the loaded data:
 After connecting to the database, you can verify the data by listing the tables:
 ```sql
 \dt cd.*
 SELECT * FROM cd.members
 ```
-This will list all tables in the cd schema and the second one will list all the members from the table cd.members. You can now test locally and try the queries below.
+This first command  will list all tables in the cd schema and the second one will list all the members from the table cd.members. You can now test locally and try the queries below.
 
 
 # SQL Queries
