@@ -31,6 +31,11 @@
       "description": "Developed a Linux-based monitoring tool to track and manage server performance across a cluster. Implemented in Bash and SQL, this tool automates the collection of hardware specifications and resource usage data, storing the information in a PostgreSQL database.Performed manual testing on the local machine for each script and command.. Leveraged cron jobs for scheduled monitoring and real-time alerts. Utilized Git for version control and collaboration, ensuring efficient project management and deployment. This project showcases expertise in shell scripting and database integration within a Linux environment.",
       "git_url": "/linux_sql",
       "name": "Cluster Monitor"
+    },
+    {
+      "description": " Designed to help you learn and practice SQL by setting up and interacting with a PostgreSQL database. It involves loading a pre-defined database schema and data, and then testing your SQL skills by answering around 30 different queries related to the data. The database is organized into several tables within a schema named cd, which manages information about club facilities, members, and bookings. The tests are performed manually directly within the PostgreSQL instance, which is deployed using Docker. Git is used for version control throughout the project.",
+      "git_url": "/sql",
+      "name": "Sql learning"
     }
   ],
   "name": "Lamine Djobo",
