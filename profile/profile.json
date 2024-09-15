@@ -1,0 +1,110 @@
+{
+  "education": [
+    {
+      "awards_achievements": null,
+      "degree": "Attestation of Collegial Studies",
+      "department": "Computer Science",
+      "duration": "2023-2024",
+      "school_name": "Ahuntsic College"
+    },
+    {
+      "awards_achievements": null,
+      "degree": "Bachelor in Economics and Finance",
+      "department": "Economic",
+      "duration": "2012-2016",
+      "school_name": "University of Quebec in Montreal"
+    }
+  ],
+  "github_repo_root_url": "https://github.com/jarviscanada/jarvis_data_eng_LamineDjobo",
+  "highlighted_projects": [
+    {
+      "description": "Worked on the development of a mobile application called 'Dors-tu-bébé,' designed to generate and narrate personalized bedtime stories for young children. Utilized the OpenAI/ChatGPT API to create dynamic story content and integrated OpenAI's voice function for narration. Developed the application using Kotlin/Java, with Firebase for backend services and MongoDB for data storage, all within the Android Studio environment.Conducted thorough manual testing of the user interface, database, and functionalities to ensure a seamless user experience. This project highlights skills in mobile app development, API integration, and cloud-based database management",
+      "name": "Dors-tu-bébé"
+    },
+    {
+      "description": "Built a dynamic e-commerce website using Vue.js for the frontend, offering a responsive and user-friendly shopping experience. Implemented a comprehensive cart system allowing users to manage their selections efficiently. Integrated PayPal API for secure and seamless payment processing. Managed the backend with SQL database for reliable storage and retrieval of product and user data.Manually verified the accuracy of the user interface, database interactions, and overall functionality to ensure a smooth shopping experience. This project demonstrates proficiency in modern web development and database management.",
+      "name": "E-commerce website"
+    }
+  ],
+  "jarvis_projects": [
+    {
+      "description": "Developed a Linux-based monitoring tool to track and manage server performance across a cluster. Implemented in Bash and SQL, this tool automates the collection of hardware specifications and resource usage data, storing the information in a PostgreSQL database.Performed manual testing on the local machine for each script and command.. Leveraged cron jobs for scheduled monitoring and real-time alerts. Utilized Git for version control and collaboration, ensuring efficient project management and deployment. This project showcases expertise in shell scripting and database integration within a Linux environment.",
+      "git_url": "/linux_sql",
+      "name": "Cluster Monitor"
+    },
+    {
+      "description": " Designed to help you learn and practice SQL by setting up and interacting with a PostgreSQL database. It involves loading a pre-defined database schema and data, and then testing your SQL skills by answering around 30 different queries related to the data. The database is organized into several tables within a schema named cd, which manages information about club facilities, members, and bookings. The tests are performed manually directly within the PostgreSQL instance, which is deployed using Docker. Git is used for version control throughout the project.",
+      "git_url": "/sql",
+      "name": "Sql learning"
+    }
+  ],
+  "name": "Lamine Djobo",
+  "others": [
+    {
+      "bullets": [
+        "Recipient of the 'Best of the Best Banker' award at Scotia Bank"
+      ],
+      "title": "Awards"
+    },
+    {
+      "bullets": [
+        "Soccer player of D1 Pierrefonds Team",
+        "Competitive gymnast, winner of Junior senegal tournament in 2009",
+        "Volunteer, organized charity soccer matches featuring personalities to raise funds for children with leukemia",
+        "Avid traveler, visited countries across all continents",
+        "Gym enthusiast, committed to regular fitness training 3-4x/week"
+      ],
+      "title": "Activities/Hobbies"
+    }
+  ],
+  "professional_experience": [
+    {
+      "company": "Jarvis",
+      "description": "Drive software development projects in an Agile/Scrum environment, focusing on delivering high-quality, up-to-date solutions. Leverage the latest technologies and industry trends to create scalable and efficient applications. Engage in all phases of the software development lifecycle.",
+      "duration": "August 2024-present",
+      "title": "Software Developer"
+    },
+    {
+      "company": "Win technologies",
+      "description": "Led the development of user-friendly web and mobile interfaces using JavaScript, React.js, and React Native, enhancing user experience through optimized UX/UI design. Implemented back-end functionalities with Node.js and MongoDB, including CRUD operations and JWT authentication, ensuring secure and efficient data management. Conducted end-to-end manual testing by running the application from start to finish, verifying all functionalities to ensure a seamless user experience. Contributed to project deployment and maintenance using Jenkins, overseeing the successful launch of applications. Collaborated closely with design and back-end teams to refine product features, significantly improving project delivery timelines.",
+      "duration": "February 2024-August  2024",
+      "title": "Web \u0026 Mobile Developer"
+    },
+    {
+      "company": "Scotia Bank",
+      "description": "Advised clients on investments, increasing portfolio values in Q1 2022. Trained and mentored new team members, improving onboarding efficiency. Streamlined mortgage processes, enhancing team productivity and fostering a collaborative work environment.",
+      "duration": "January 2022-January 2023",
+      "title": "Senior Financial Advisor"
+    },
+    {
+      "company": "Royal Bank of Canada (RBC)",
+      "description": "Provided personalized financial advice, resolving client issues with strong problem-solving skills. Managed credit applications with a client-first approach. Built strong client relationships and collaborated with team members, boosting overall customer satisfaction.",
+      "duration": "September 2017-January 2022",
+      "title": "Senior Financial Advisor"
+    }
+  ],
+  "skills": {
+    "competent": [
+      "JavaScript",
+      "MongoDB",
+      "HTML/CSS",
+      "React Native",
+      "Expo"
+    ],
+    "familiar": [
+      "Node.js",
+      "Express.js",
+      "Typescript",
+      "Azure",
+      "Figma"
+    ],
+    "proficient": [
+      "Java",
+      "Linux/Bash",
+      "RDBMS/SQL",
+      "Agile/Scrum",
+      "Git"
+    ]
+  },
+  "summary": "I'm a professional with 6 years\\' solid experience in banking as a financial advisor. My passion for IT was born at a very young age and has stayed with me to this day. While working at the bank, I constantly identified areas for improvement in my work tools. The desire to create and enhance the tools used by software and application users led me to transition my career focus. My goal is to become a full-stack developer.During my intensive technical diploma (AEC) in web and mobile application development, I collaborated on the creation of a mobile application called \"Dors-tu bébé\". This application generates stories for young children using the OpenAI/ChatGPT API and allows them to be narrated using OpenAI's voice function. It was developed using Kotlin/Java, Firebase, and MongoDB, all within Android Studio.This experience has only heightened my thirst for knowledge and discovery. It drives me to continuously learn and improve in the IT field. My ambition is to become an excellent developer, capable of actively contributing to the advancement of technologies."
+}
