@@ -36,6 +36,11 @@
       "description": " Designed to help you learn and practice SQL by setting up and interacting with a PostgreSQL database. It involves loading a pre-defined database schema and data, and then testing your SQL skills by answering around 30 different queries related to the data. The database is organized into several tables within a schema named cd, which manages information about club facilities, members, and bookings. The tests are performed manually directly within the PostgreSQL instance, which is deployed using Docker. Git is used for version control throughout the project.",
       "git_url": "/sql",
       "name": "Sql learning"
+    },
+    {
+      "description": "The Java Grep application is a command-line tool designed for system administrators and developers who need to search through large directories of text files for specific patterns. It mimics the functionality of the Unix grep command, allowing users to recursively search through files and output matching lines to a specified file. The application is implemented using Core Java, with loops and enhancements like Stream API and Lambda expressions for efficient data processing. Logging is handled via SLF4J with Log4j, and the application is containerized using Docker for easy deployment. Comprehensive testing was conducted manually to ensure reliability across different scenarios, including large files and nested directories. ",
+      "git_url": "/core_java/grep",
+      "name": "Java Grep program"
     }
   ],
   "name": "Lamine Djobo",
