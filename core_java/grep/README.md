@@ -1,23 +1,23 @@
-#Java Grep Application
+Java Grep Application
 
-#Introduction
+Introduction
 
 The Java Grep application is a command-line tool designed for system administrators and developers who need to search through large directories of text files for specific patterns. It mimics the functionality of the Unix grep command, allowing users to recursively search through files and output matching lines to a specified file. The application is implemented using Core Java, with enhancements like Stream API and Lambda expressions for efficient data processing. Logging is handled via SLF4J with Log4j, and the application is containerized using Docker for easy deployment. Comprehensive testing was conducted manually to ensure reliability across different scenarios, including large files and nested directories.
 
-##Quick Start
+Quick Start
 
-### Prerequisites
+ Prerequisites
 
 - Java 8 or higher installed.
 - Docker installed (if you plan to use the Docker image).
 
-### Clone the Repository
+ Clone the Repository
 
 ```bash
 git clone https://github.com/jarviscanada/jarvis_data_eng_LamineDjobo.git
 cd jarvis_data_eng_LamineDjobo/core_java/grep
 ```
-#Run the Application
+Run the Application
 
 Using an IDE (e.g., IntelliJ IDEA):
 
@@ -53,9 +53,9 @@ docker run -v $(pwd)/data:/data lamine005/grep:latest "regex" "/data/rootPath" "
 
 Replace "regex", "/data/rootPath", and "/data/outputFile" with your actual parameters.
 
-#Implementation
+Implementation
 
-##Pseudocode for process Method
+Pseudocode for process Method
 
 Initialize an empty list to store matched lines.
 
@@ -69,19 +69,19 @@ For each file:
 
 Write the matched lines to the output file.
 
-#Performance Issue
+Performance Issue
 
 The original implementation using lists can consume a lot of memory when processing large files or directories, as it loads all data into memory at once. This issue can be mitigated by using Java Streams, which allow for lazy evaluation, processing data on-the-fly without holding everything in memory.
 
-#Test
+Test
 
 The application was manually tested by creating sample text files with known content, running the application with various regex patterns, and comparing the output file with expected results. Different scenarios, such as empty files, large files, and deeply nested directories, were tested to ensure the application?s robustness.
 
-#Deployment
+Deployment
 
 The application was dockerized for easier distribution. A Dockerfile was created to package the application into a Docker image. This image can be run as a container, making it easier to deploy across different environments. The image is available on Docker Hub, allowing for easy pulling and running of the container.
 
-#Improvements
+Improvements
 
 1-Parallel Processing with Streams: Implement parallel processing by using Java Streams' parallel capabilities, improving performance on large datasets.
 
