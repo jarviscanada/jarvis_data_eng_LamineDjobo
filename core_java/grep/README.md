@@ -1,5 +1,4 @@
 
-```markdown
 # Java Grep Application
 
 ## Introduction
@@ -33,9 +32,17 @@ cd jarvis_data_eng_LamineDjobo/core_java/grep
 
 #### Using Command Line:
 
+Using Java -jar
+
 ```bash
 mvn clean install
 java -jar target/grep-1.0-SNAPSHOT.jar "regex" "rootPath" "outputFile"
+```
+Using Java -cp (Classpath)
+
+```bash
+mvn clean install
+java -cp target/grep-1.0-SNAPSHOT.jar ca.jrvs.apps.grep.JavaGrepLambdaImpl "regex" "rootPath" "outputFile"
 ```
 
 #### Using Docker:
@@ -85,4 +92,4 @@ The application was dockerized for easier distribution. A Dockerfile was created
 1. **Parallel Processing with Streams**: Implement parallel processing by using Java Streams' parallel capabilities, improving performance on large datasets.
 2. **Stream-Based Interface**: Introduce a new interface that returns streams throughout the application, allowing for more efficient memory usage and better performance.
 3. **Automated Testing**: Develop a comprehensive suite of automated tests, including unit and integration tests, to ensure code reliability and coverage.
-```
+
