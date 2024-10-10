@@ -1,0 +1,564 @@
+2024-10-09 21:45:03,515 [main] INFO  ca.jrvs.apps.stockquote.dao.StockQuoteController - Initializing Stock Quote App client
+2024-10-09 21:49:21,480 [main] INFO  ca.jrvs.apps.stockquote.dao.StockQuoteController - Starting buy stock process
+2024-10-09 21:50:07,237 [main] INFO  ca.jrvs.apps.stockquote.dao.StockQuoteController - Initializing Stock Quote App client
+2024-10-09 22:58:12,017 [main] ERROR ca.jrvs.apps.stockquote.dao.QuoteDao - Error finding this symbol
+2024-10-09 23:15:42,119 [main] ERROR ca.jrvs.apps.stockquote.dao.QuoteDao - Error finding this symbol
+2024-10-09 23:16:03,887 [main] ERROR ca.jrvs.apps.stockquote.dao.QuoteDao - Error finding this symbol
+2024-10-09 23:16:24,953 [main] ERROR ca.jrvs.apps.stockquote.dao.QuoteDao - Error finding this symbol
+2024-10-09 23:17:40,312 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Reading properties from properties.txt
+2024-10-09 23:17:40,313 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Properties loaded successfully
+2024-10-09 23:17:40,313 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Loading database driver: {}
+2024-10-09 23:17:40,319 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Database driver loaded successfully
+2024-10-09 23:17:40,537 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Connecting to the database
+2024-10-09 23:17:40,644 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Database connection established successfully
+2024-10-09 23:17:40,647 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Starting the StockQuoteController UI
+2024-10-09 23:17:40,649 [main] INFO  ca.jrvs.apps.stockquote.dao.StockQuoteController - Initializing Stock Quote App client
+2024-10-09 23:18:09,139 [main] INFO  ca.jrvs.apps.stockquote.dao.StockQuoteController - Fetching stock information
+2024-10-09 23:18:09,156 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Fetching all quotes
+2024-10-09 23:18:09,205 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Found {} quotes
+2024-10-09 23:18:36,957 [main] ERROR ca.jrvs.apps.stockquote.dao.QuoteDao - Error finding this symbol
+2024-10-09 23:20:50,831 [main] ERROR ca.jrvs.apps.stockquote.dao.QuoteDao - Error finding this symbol
+2024-10-09 23:33:35,281 [main] ERROR ca.jrvs.apps.stockquote.dao.QuoteDao - Error finding this symbol
+2024-10-09 23:33:35,282 [main] ERROR ca.jrvs.apps.stockquote.dao.QuoteHttpHelper - Error finding position: java.lang.IllegalArgumentException: Invalid symbol: AAPL
+2024-10-09 23:34:04,319 [main] ERROR ca.jrvs.apps.stockquote.dao.QuoteDao - Error finding this symbol
+2024-10-09 23:34:04,320 [main] ERROR ca.jrvs.apps.stockquote.dao.QuoteHttpHelper - Error finding position: java.lang.IllegalArgumentException: Invalid symbol: AAPL
+2024-10-09 23:35:32,341 [main] ERROR ca.jrvs.apps.stockquote.dao.QuoteDao - Error finding this symbol
+2024-10-09 23:35:32,342 [main] ERROR ca.jrvs.apps.stockquote.dao.QuoteHttpHelper - Error finding position: java.lang.IllegalArgumentException: Invalid symbol: MSFT
+2024-10-09 23:35:50,730 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Reading properties from properties.txt
+2024-10-09 23:35:50,731 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Properties loaded successfully
+2024-10-09 23:35:50,731 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Loading database driver: {}
+2024-10-09 23:35:50,739 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Database driver loaded successfully
+2024-10-09 23:35:51,013 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Connecting to the database
+2024-10-09 23:35:51,153 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Database connection established successfully
+2024-10-09 23:35:51,160 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Starting the StockQuoteController UI
+2024-10-09 23:35:51,162 [main] INFO  ca.jrvs.apps.stockquote.dao.StockQuoteController - Initializing Stock Quote App client
+2024-10-09 23:36:01,650 [main] INFO  ca.jrvs.apps.stockquote.dao.StockQuoteController - Fetching stock information
+2024-10-09 23:36:01,651 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Fetching all quotes
+2024-10-09 23:36:01,690 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Found {} quotes
+2024-10-09 23:36:06,613 [main] ERROR ca.jrvs.apps.stockquote.dao.QuoteDao - Error finding this symbol
+2024-10-09 23:42:45,437 [main] ERROR ca.jrvs.apps.stockquote.dao.QuoteDao - Error finding this symbol
+2024-10-09 23:42:45,438 [main] ERROR ca.jrvs.apps.stockquote.dao.QuoteHttpHelper - Error finding position: java.lang.IllegalArgumentException: Invalid symbol: MSFT
+2024-10-09 23:43:48,067 [main] ERROR ca.jrvs.apps.stockquote.dao.QuoteDao - Error finding this symbol
+2024-10-09 23:43:48,068 [main] ERROR ca.jrvs.apps.stockquote.dao.QuoteHttpHelper - Error finding position: java.lang.IllegalArgumentException: Invalid symbol: AAPL
+2024-10-09 23:48:10,306 [main] ERROR ca.jrvs.apps.stockquote.dao.QuoteDao - Error finding this symbol
+2024-10-09 23:48:10,455 [main] ERROR ca.jrvs.apps.stockquote.dao.QuoteDao - Error finding this symbol
+2024-10-09 23:48:10,560 [main] ERROR ca.jrvs.apps.stockquote.dao.QuoteDao - Error finding this symbol
+2024-10-09 23:48:10,601 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-09 23:48:10,616 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-09 23:48:10,653 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-09 23:48:10,655 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-09 23:48:10,669 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-09 23:48:10,670 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-09 23:48:10,683 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-09 23:48:10,685 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-09 23:48:10,704 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Deleting quote and associated positions
+2024-10-09 23:48:10,707 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote and positions deleted successfully
+2024-10-09 23:48:10,707 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Fetching quote with symbol
+2024-10-09 23:48:10,708 [main] WARN  ca.jrvs.apps.stockquote.dao.QuoteDao - No quote found for this symbol
+2024-10-09 23:48:10,724 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Deleting all quotes
+2024-10-09 23:48:10,726 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - All quotes deleted successfully
+2024-10-09 23:48:10,726 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Fetching all quotes
+2024-10-09 23:48:10,726 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Found {} quotes
+2024-10-09 23:48:10,753 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-09 23:48:10,756 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-09 23:48:10,756 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Fetching quote with symbol
+2024-10-09 23:48:10,757 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Found quote
+2024-10-09 23:48:10,774 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Fetching all quotes
+2024-10-09 23:48:10,776 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Found {} quotes
+2024-10-10 00:08:19,485 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 00:08:19,509 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 00:08:19,677 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 00:08:19,681 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 00:08:19,852 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 00:08:19,854 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 00:08:19,896 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 00:08:19,899 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 00:08:19,928 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 00:08:19,931 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 00:08:19,959 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 00:08:19,961 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 00:08:20,010 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Deleting quote and associated positions
+2024-10-10 00:08:20,014 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote and positions deleted successfully
+2024-10-10 00:08:20,014 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Fetching quote with symbol
+2024-10-10 00:08:20,014 [main] WARN  ca.jrvs.apps.stockquote.dao.QuoteDao - No quote found for this symbol
+2024-10-10 00:08:20,030 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Deleting all quotes
+2024-10-10 00:08:20,032 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - All quotes deleted successfully
+2024-10-10 00:08:20,032 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Fetching all quotes
+2024-10-10 00:08:20,033 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Found {} quotes
+2024-10-10 00:08:20,064 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 00:08:20,066 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 00:08:20,066 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Fetching quote with symbol
+2024-10-10 00:08:20,067 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Found quote
+2024-10-10 00:08:20,089 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Fetching all quotes
+2024-10-10 00:08:20,090 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Found {} quotes
+2024-10-10 00:08:54,301 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Deleting quote and associated positions
+2024-10-10 00:08:54,306 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote and positions deleted successfully
+2024-10-10 00:08:54,306 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Fetching quote with symbol
+2024-10-10 00:08:54,310 [main] WARN  ca.jrvs.apps.stockquote.dao.QuoteDao - No quote found for this symbol
+2024-10-10 00:08:54,350 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Deleting all quotes
+2024-10-10 00:08:54,352 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - All quotes deleted successfully
+2024-10-10 00:08:54,352 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Fetching all quotes
+2024-10-10 00:08:54,354 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Found {} quotes
+2024-10-10 00:08:54,379 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 00:08:54,382 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 00:08:54,382 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Fetching quote with symbol
+2024-10-10 00:08:54,383 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Found quote
+2024-10-10 00:08:54,425 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Fetching all quotes
+2024-10-10 00:08:54,427 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Found {} quotes
+2024-10-10 00:09:17,690 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 00:09:17,701 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 00:09:17,753 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 00:09:17,755 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 00:09:17,779 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 00:09:17,781 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 00:09:17,815 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 00:09:17,817 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 00:10:43,086 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 00:10:43,098 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 00:10:43,140 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 00:10:43,142 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 00:10:43,163 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 00:10:43,165 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 00:10:43,187 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 00:10:43,195 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 00:20:01,041 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 00:20:01,052 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 00:20:01,094 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 00:20:01,098 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 00:20:01,122 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 00:20:01,124 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 00:20:01,153 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 00:20:01,156 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 00:22:54,485 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 00:22:54,496 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 00:22:54,665 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 00:22:54,669 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 00:22:54,842 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 00:22:54,844 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 00:22:54,858 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 00:22:54,860 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 00:22:54,874 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 00:22:54,876 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 00:22:54,890 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 00:22:54,892 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 00:22:54,916 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Deleting quote and associated positions
+2024-10-10 00:22:54,919 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote and positions deleted successfully
+2024-10-10 00:22:54,919 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Fetching quote with symbol
+2024-10-10 00:22:54,919 [main] WARN  ca.jrvs.apps.stockquote.dao.QuoteDao - No quote found for this symbol
+2024-10-10 00:22:54,933 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Deleting all quotes
+2024-10-10 00:22:54,933 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - All quotes deleted successfully
+2024-10-10 00:22:54,934 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Fetching all quotes
+2024-10-10 00:22:54,934 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Found {} quotes
+2024-10-10 00:22:54,946 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 00:22:54,947 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 00:22:54,947 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Fetching quote with symbol
+2024-10-10 00:22:54,948 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Found quote
+2024-10-10 00:22:54,969 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Fetching all quotes
+2024-10-10 00:22:54,970 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Found {} quotes
+2024-10-10 00:23:41,996 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Deleting quote and associated positions
+2024-10-10 00:23:42,002 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote and positions deleted successfully
+2024-10-10 00:23:42,002 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Fetching quote with symbol
+2024-10-10 00:23:42,007 [main] WARN  ca.jrvs.apps.stockquote.dao.QuoteDao - No quote found for this symbol
+2024-10-10 00:23:42,034 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Deleting all quotes
+2024-10-10 00:23:42,035 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - All quotes deleted successfully
+2024-10-10 00:23:42,035 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Fetching all quotes
+2024-10-10 00:23:42,036 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Found {} quotes
+2024-10-10 00:23:42,057 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 00:23:42,061 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 00:23:42,061 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Fetching quote with symbol
+2024-10-10 00:23:42,063 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Found quote
+2024-10-10 00:23:42,090 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Fetching all quotes
+2024-10-10 00:23:42,092 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Found {} quotes
+2024-10-10 00:23:55,802 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 00:23:55,832 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 00:24:21,875 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 00:24:21,903 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 00:24:41,395 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 00:24:41,406 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 00:24:48,068 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 00:24:48,078 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 00:24:48,116 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 00:24:48,119 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 00:24:48,150 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 00:24:48,152 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 00:24:48,173 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 00:24:48,176 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 00:31:47,537 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 00:31:47,555 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 00:31:47,605 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 00:31:47,608 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 00:31:47,610 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Fetched 0 positions from the database.
+2024-10-10 00:31:47,655 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 00:31:47,657 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 00:31:47,681 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 00:31:47,683 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 00:31:47,684 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Fetched 0 positions from the database.
+2024-10-10 00:33:27,336 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 00:33:27,346 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 00:33:27,497 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 00:33:27,502 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 00:33:27,678 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 00:33:27,680 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 00:33:27,700 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 00:33:27,702 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 00:33:27,703 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Fetched 0 positions from the database.
+2024-10-10 00:33:27,717 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 00:33:27,719 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 00:33:27,730 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 00:33:27,741 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 00:33:27,742 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Fetched 0 positions from the database.
+2024-10-10 00:33:27,795 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Deleting quote and associated positions
+2024-10-10 00:33:27,801 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote and positions deleted successfully
+2024-10-10 00:33:27,801 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Fetching quote with symbol
+2024-10-10 00:33:27,802 [main] WARN  ca.jrvs.apps.stockquote.dao.QuoteDao - No quote found for this symbol
+2024-10-10 00:33:27,813 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Deleting all quotes
+2024-10-10 00:33:27,814 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - All quotes deleted successfully
+2024-10-10 00:33:27,814 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Fetching all quotes
+2024-10-10 00:33:27,814 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Found {} quotes
+2024-10-10 00:33:27,825 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 00:33:27,827 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 00:33:27,827 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Fetching quote with symbol
+2024-10-10 00:33:27,828 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Found quote
+2024-10-10 00:33:27,838 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Fetching all quotes
+2024-10-10 00:33:27,839 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Found {} quotes
+2024-10-10 00:39:46,267 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 00:39:46,280 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 00:39:46,318 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 00:39:46,320 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 00:39:46,327 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Fetched 0 positions from the database.
+2024-10-10 00:39:46,349 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 00:39:46,351 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 00:39:46,381 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 00:39:46,383 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 00:39:46,384 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Fetched 0 positions from the database.
+2024-10-10 00:42:36,230 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 00:42:36,242 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 00:42:36,280 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 00:42:36,282 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 00:42:36,288 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Fetched 1 positions from the database.
+2024-10-10 00:42:41,578 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 00:42:41,589 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 00:42:41,633 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 00:42:41,635 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 00:42:41,639 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Fetched 1 positions from the database.
+2024-10-10 00:43:21,103 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 00:43:21,114 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 00:43:21,154 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 00:43:21,159 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 00:43:21,165 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Fetched 0 positions from the database.
+2024-10-10 00:43:21,184 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 00:43:21,186 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 00:43:21,220 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 00:43:21,222 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 00:43:21,223 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Fetched 0 positions from the database.
+2024-10-10 00:44:02,499 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 00:44:02,510 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 00:44:02,565 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 00:44:02,569 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 00:44:02,577 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Fetched 0 positions from the database.
+2024-10-10 00:44:02,597 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 00:44:02,599 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 00:44:02,619 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 00:44:02,620 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 00:44:02,621 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Fetched 0 positions from the database.
+2024-10-10 00:44:22,152 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 00:44:22,164 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 00:44:22,213 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 00:44:22,217 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 00:44:22,223 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Fetched 0 positions from the database.
+2024-10-10 00:44:22,254 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 00:44:22,257 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 00:44:22,283 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 00:44:22,288 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 00:44:22,289 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Fetched 0 positions from the database.
+2024-10-10 00:44:30,387 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 00:44:30,397 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 00:44:30,458 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 00:44:30,461 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 00:44:30,462 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Fetched 0 positions from the database.
+2024-10-10 00:44:30,486 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 00:44:30,488 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 00:44:30,516 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 00:44:30,518 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 00:44:30,519 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Fetched 0 positions from the database.
+2024-10-10 00:45:18,380 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 00:45:18,392 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 00:45:18,428 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 00:45:18,430 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 00:45:18,432 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Fetched 0 positions from the database.
+2024-10-10 00:45:18,450 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 00:45:18,453 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 00:45:18,476 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 00:45:18,479 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 00:45:18,480 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Fetched 0 positions from the database.
+2024-10-10 00:49:16,854 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 00:49:16,866 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 00:49:16,901 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 00:49:16,904 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 00:49:16,906 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Fetched 0 positions from the database.
+2024-10-10 00:49:16,926 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 00:49:16,929 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 00:49:16,968 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 00:49:16,971 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 00:49:16,972 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Fetched 0 positions from the database.
+2024-10-10 00:50:45,234 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Reading properties from properties.txt
+2024-10-10 00:50:45,235 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Properties loaded successfully
+2024-10-10 00:50:45,235 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Loading database driver: {}
+2024-10-10 00:50:45,242 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Database driver loaded successfully
+2024-10-10 00:50:45,471 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Connecting to the database
+2024-10-10 00:50:45,623 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Database connection established successfully
+2024-10-10 00:50:45,626 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Starting the StockQuoteController UI
+2024-10-10 00:50:45,628 [main] INFO  ca.jrvs.apps.stockquote.dao.StockQuoteController - Initializing Stock Quote App client
+2024-10-10 00:50:52,809 [main] INFO  ca.jrvs.apps.stockquote.dao.StockQuoteController - Fetching stock information
+2024-10-10 00:50:52,811 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Fetching all quotes
+2024-10-10 00:50:52,844 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Found {} quotes
+2024-10-10 00:50:59,862 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 00:50:59,872 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 00:50:59,872 [main] INFO  ca.jrvs.apps.stockquote.dao.StockQuoteController - Displaying stock information for AAPL
+2024-10-10 00:50:59,876 [main] WARN  ca.jrvs.apps.stockquote.dao.StockQuoteController - No stock for ticker: AAPLfound in the portfolio
+2024-10-10 00:50:59,876 [main] INFO  ca.jrvs.apps.stockquote.dao.StockQuoteController - Initializing Stock Quote App client
+2024-10-10 00:51:14,603 [main] INFO  ca.jrvs.apps.stockquote.dao.StockQuoteController - Starting buy stock process
+2024-10-10 00:51:14,606 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Fetching all quotes
+2024-10-10 00:51:14,616 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Found {} quotes
+2024-10-10 00:51:22,653 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 00:51:22,663 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 00:51:22,673 [main] INFO  ca.jrvs.apps.stockquote.dao.StockQuoteController - Initializing Stock Quote App client
+2024-10-10 00:51:29,247 [main] INFO  ca.jrvs.apps.stockquote.dao.StockQuoteController - Fetching stock information
+2024-10-10 00:51:29,248 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Fetching all quotes
+2024-10-10 00:51:29,259 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Found {} quotes
+2024-10-10 00:51:33,038 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 00:51:33,046 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 00:51:33,047 [main] INFO  ca.jrvs.apps.stockquote.dao.StockQuoteController - Displaying stock information for AAPL
+2024-10-10 00:51:33,059 [main] INFO  ca.jrvs.apps.stockquote.dao.StockQuoteController - Initializing Stock Quote App client
+2024-10-10 00:51:47,301 [main] INFO  ca.jrvs.apps.stockquote.dao.StockQuoteController - Starting sell stock process
+2024-10-10 00:51:56,172 [main] INFO  ca.jrvs.apps.stockquote.dao.StockQuoteController - Sale of AAPL canceled.
+2024-10-10 00:51:56,173 [main] INFO  ca.jrvs.apps.stockquote.dao.StockQuoteController - Initializing Stock Quote App client
+2024-10-10 00:59:06,291 [main] INFO  ca.jrvs.apps.stockquote.dao.StockQuoteController - Exiting Stock Quote App
+2024-10-10 00:59:15,821 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 00:59:15,835 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 00:59:15,877 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 00:59:15,880 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 00:59:15,917 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 00:59:15,919 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 00:59:15,920 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Fetched 0 positions from the database.
+2024-10-10 00:59:52,570 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 00:59:52,594 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 00:59:52,631 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 00:59:52,643 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 00:59:52,644 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Fetched 1 positions from the database.
+2024-10-10 01:29:26,180 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 01:29:26,186 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 01:29:26,227 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 01:29:26,229 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 01:29:26,299 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 01:29:26,302 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 01:29:26,330 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 01:29:26,332 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 01:29:26,333 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Fetched 1 positions from the database.
+2024-10-10 01:41:11,501 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 01:41:11,518 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 01:41:11,552 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 01:41:11,555 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 01:41:11,558 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Fetched 0 positions from the database.
+2024-10-10 01:41:11,586 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 01:41:11,588 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 01:41:11,626 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 01:41:11,631 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 01:41:11,632 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Fetched 0 positions from the database.
+2024-10-10 01:42:37,419 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Deleting quote and associated positions
+2024-10-10 01:42:37,432 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote and positions deleted successfully
+2024-10-10 01:42:37,432 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Fetching quote with symbol
+2024-10-10 01:42:37,436 [main] WARN  ca.jrvs.apps.stockquote.dao.QuoteDao - No quote found for this symbol
+2024-10-10 01:42:37,463 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Deleting all quotes
+2024-10-10 01:42:37,468 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - All quotes deleted successfully
+2024-10-10 01:42:37,468 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Fetching all quotes
+2024-10-10 01:42:37,468 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Found {} quotes
+2024-10-10 01:42:37,487 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 01:42:37,490 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 01:42:37,491 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Fetching quote with symbol
+2024-10-10 01:42:37,492 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Found quote
+2024-10-10 01:42:37,518 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Fetching all quotes
+2024-10-10 01:42:37,519 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Found {} quotes
+2024-10-10 01:43:22,456 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 01:43:22,473 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 01:43:22,519 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 01:43:22,522 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 01:43:22,523 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Fetched 1 positions from the database.
+2024-10-10 01:43:59,019 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 01:43:59,031 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 01:43:59,065 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 01:43:59,067 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 01:43:59,068 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Fetched 2 positions from the database.
+2024-10-10 01:44:10,026 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Deleting quote and associated positions
+2024-10-10 01:44:10,039 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote and positions deleted successfully
+2024-10-10 01:44:10,039 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Fetching quote with symbol
+2024-10-10 01:44:10,043 [main] WARN  ca.jrvs.apps.stockquote.dao.QuoteDao - No quote found for this symbol
+2024-10-10 01:44:10,074 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Deleting all quotes
+2024-10-10 01:44:10,080 [main] ERROR ca.jrvs.apps.stockquote.dao.QuoteDao - Error deleting all quotes
+org.postgresql.util.PSQLException: ERROR: update or delete on table "quote" violates foreign key constraint "symbol_fk" on table "position"
+  Détail : Key (symbol)=(AAPL1) is still referenced from table "position".
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2440)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2183)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:308)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:441)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:365)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:143)
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:120)
+	at ca.jrvs.apps.stockquote.dao.QuoteDao.deleteAll(QuoteDao.java:129)
+	at ca.jrvs.apps.stockquote.dao.QuoteDaoTest.testDeleteAllQuotes(QuoteDaoTest.java:75)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:232)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55)
+2024-10-10 01:44:10,120 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 01:44:10,123 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 01:44:10,123 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Fetching quote with symbol
+2024-10-10 01:44:10,125 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Found quote
+2024-10-10 01:44:10,150 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Fetching all quotes
+2024-10-10 01:44:10,151 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Found {} quotes
+2024-10-10 01:45:11,339 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Deleting quote and associated positions
+2024-10-10 01:45:11,352 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote and positions deleted successfully
+2024-10-10 01:45:11,352 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Fetching quote with symbol
+2024-10-10 01:45:11,357 [main] WARN  ca.jrvs.apps.stockquote.dao.QuoteDao - No quote found for this symbol
+2024-10-10 01:45:11,386 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Deleting all quotes
+2024-10-10 01:45:11,391 [main] ERROR ca.jrvs.apps.stockquote.dao.QuoteDao - Error deleting all quotes
+org.postgresql.util.PSQLException: ERROR: update or delete on table "quote" violates foreign key constraint "symbol_fk" on table "position"
+  Détail : Key (symbol)=(AAPL1) is still referenced from table "position".
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2440)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2183)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:308)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:441)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:365)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:143)
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:120)
+	at ca.jrvs.apps.stockquote.dao.QuoteDao.deleteAll(QuoteDao.java:129)
+	at ca.jrvs.apps.stockquote.dao.QuoteDaoTest.testDeleteAllQuotes(QuoteDaoTest.java:75)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:232)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55)
+2024-10-10 01:45:11,412 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 01:45:11,415 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 01:45:11,415 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Fetching quote with symbol
+2024-10-10 01:45:11,417 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Found quote
+2024-10-10 01:45:11,444 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Fetching all quotes
+2024-10-10 01:45:11,446 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Found {} quotes
+2024-10-10 01:45:31,477 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Deleting quote and associated positions
+2024-10-10 01:45:31,489 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote and positions deleted successfully
+2024-10-10 01:45:31,489 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Fetching quote with symbol
+2024-10-10 01:45:31,494 [main] WARN  ca.jrvs.apps.stockquote.dao.QuoteDao - No quote found for this symbol
+2024-10-10 01:45:31,520 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Deleting all quotes
+2024-10-10 01:45:31,526 [main] ERROR ca.jrvs.apps.stockquote.dao.QuoteDao - Error deleting all quotes
+org.postgresql.util.PSQLException: ERROR: update or delete on table "quote" violates foreign key constraint "symbol_fk" on table "position"
+  Détail : Key (symbol)=(AAPL1) is still referenced from table "position".
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2440)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2183)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:308)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:441)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:365)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:143)
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:120)
+	at ca.jrvs.apps.stockquote.dao.QuoteDao.deleteAll(QuoteDao.java:129)
+	at ca.jrvs.apps.stockquote.dao.QuoteDaoTest.testDeleteAllQuotes(QuoteDaoTest.java:75)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:232)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55)
+2024-10-10 01:45:31,571 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 01:45:31,575 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 01:45:31,576 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Fetching quote with symbol
+2024-10-10 01:45:31,578 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Found quote
+2024-10-10 01:45:31,603 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Fetching all quotes
+2024-10-10 01:45:31,605 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Found {} quotes
+2024-10-10 01:48:31,359 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 01:48:31,370 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 01:48:31,403 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 01:48:31,405 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 01:48:31,407 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Fetched 0 positions from the database.
+2024-10-10 01:48:31,433 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 01:48:31,436 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 01:48:31,457 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 01:48:31,459 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 01:48:31,461 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Fetched 0 positions from the database.
+2024-10-10 01:48:49,711 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Deleting quote and associated positions
+2024-10-10 01:48:49,725 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote and positions deleted successfully
+2024-10-10 01:48:49,725 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Fetching quote with symbol
+2024-10-10 01:48:49,729 [main] WARN  ca.jrvs.apps.stockquote.dao.QuoteDao - No quote found for this symbol
+2024-10-10 01:48:49,757 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Deleting all quotes
+2024-10-10 01:48:49,759 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - All quotes deleted successfully
+2024-10-10 01:48:49,759 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Fetching all quotes
+2024-10-10 01:48:49,760 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Found {} quotes
+2024-10-10 01:48:49,792 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 01:48:49,797 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 01:48:49,797 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Fetching quote with symbol
+2024-10-10 01:48:49,799 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Found quote
+2024-10-10 01:48:49,822 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Fetching all quotes
+2024-10-10 01:48:49,823 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Found {} quotes
+2024-10-10 01:50:15,748 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 01:50:15,762 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 01:50:38,742 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 01:50:38,766 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 01:50:38,772 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Fetched 1 positions from the database.

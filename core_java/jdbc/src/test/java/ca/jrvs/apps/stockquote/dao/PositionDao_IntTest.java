@@ -3,14 +3,13 @@ package ca.jrvs.apps.stockquote.dao;
 import org.junit.Before;
 import org.junit.Test;
 
-import static org.junit.Assert.*;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.util.Optional;
 
+import static org.junit.Assert.*;
 
-
-public class PositionDaoTest {
+public class PositionDao_IntTest {
 
     private Connection connection;
     private PositionDao positionDao;
@@ -18,14 +17,13 @@ public class PositionDaoTest {
 
     @Before
     public void setup() throws Exception {
-        // Establish a connection to the test database
         connection = DriverManager.getConnection("jdbc:postgresql://localhost:5432/stock_quote", "postgres", "password");
         positionDao = new PositionDao(connection);
         quoteDao = new QuoteDao(connection);
 
-        // Insert a quote that is necessary for adding a position (due to foreign key constraints)
+        // Add a quote for AAPL to satisfy the foreign key constraint
         Quote quote = new Quote();
-        quote.setTicker("AAPL12");
+        quote.setTicker("AAPL");
         quote.setOpen(150.0);
         quote.setHigh(155.0);
         quote.setLow(145.0);
@@ -36,22 +34,21 @@ public class PositionDaoTest {
         quote.setChange(2.0);
         quote.setChangePercent("1.33%");
 
-        quoteDao.save(quote);  // Save the quote to ensure it exists in the database
+        quoteDao.save(quote); // Save the quote to ensure it exists in the quote table
     }
 
     @Test
     public void testSaveAndFindPosition() {
-        // Now save a position for AAPL
+        // Now save the position for AAPL
         Position position = new Position();
-        position.setTicker("AAPL12");
+        position.setTicker("AAPL");
         position.setNumOfShares(100);
         position.setValuePaid(14500.0);
 
-        // Save the position
         positionDao.save(position);
 
         // Find the saved position by ticker
-        Optional<Position> result = positionDao.findById("AAPL12");
+        Optional<Position> result = positionDao.findById("AAPL");
         assertTrue(result.isPresent());
         assertEquals(100, result.get().getNumOfShares());
         assertEquals(14500.0, result.get().getValuePaid(), 0);
@@ -64,9 +61,10 @@ public class PositionDaoTest {
         assertTrue("The list of positions should not be empty", positions.iterator().hasNext());
     }
 
+
     @Test
     public void testDeletePositionById() {
-        String ticker = "AAPL1";
+        String ticker = "AAPL";
 
         // Delete the position by ticker
         positionDao.deleteById(ticker);
@@ -83,4 +81,3 @@ public class PositionDaoTest {
         assertFalse(positions.iterator().hasNext());
     }
 }
-

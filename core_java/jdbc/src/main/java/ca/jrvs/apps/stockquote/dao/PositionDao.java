@@ -1,11 +1,15 @@
 package ca.jrvs.apps.stockquote.dao;
 
+import org.apache.log4j.LogManager;
+import org.apache.log4j.Logger;
+
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
 public class PositionDao implements CrudDao<Position, String> {
+    private static final Logger logger = LogManager.getLogger(QuoteDao.class);
 
     private final Connection connection;
 
@@ -25,6 +29,7 @@ public class PositionDao implements CrudDao<Position, String> {
             stmt.setDouble(3, position.getValuePaid());
 
             stmt.executeUpdate();
+
             return position;
 
         } catch (SQLException e) {
@@ -54,9 +59,12 @@ public class PositionDao implements CrudDao<Position, String> {
         List<Position> positions = new ArrayList<>();
         try (PreparedStatement stmt = connection.prepareStatement(selectAllSQL)) {
             ResultSet rs = stmt.executeQuery();
+            int count = 0;
             while (rs.next()) {
                 positions.add(extractPosition(rs));
+                count++;
             }
+            logger.info("Fetched " + count + " positions from the database.");
         } catch (SQLException e) {
             throw new IllegalArgumentException("Error fetching all positions", e);
         }

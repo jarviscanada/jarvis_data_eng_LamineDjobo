@@ -6,10 +6,13 @@ import okhttp3.HttpUrl;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
 import okhttp3.Response;
+import org.apache.log4j.LogManager;
+import org.apache.log4j.Logger;
 
 import java.io.IOException;
 
 public class QuoteHttpHelper {
+    private static final Logger logger = LogManager.getLogger(QuoteDao.class);
 
     private static final String API_KEY = "97a17ce634msh9054341c3c37c6cp15ddb9jsn41edd7e0ae7c"; // Alpha Vantage API key
     private static final String BASE_URL = "https://www.alphavantage.co/query";
@@ -31,6 +34,7 @@ public class QuoteHttpHelper {
         Response response = client.newCall(request).execute();
 
         if (!response.isSuccessful()) {
+            logger.error("Failed to fetch data from API: " + response);
             throw new IOException("Failed to fetch data from API: " + response);
         }
 
@@ -39,6 +43,7 @@ public class QuoteHttpHelper {
         JsonNode jsonNode = mapper.readTree(response.body().string()).get("Global Quote");
 
         if (jsonNode == null || !jsonNode.has("01. symbol")) {
+            logger.error("Error finding this symbol");
             throw new IllegalArgumentException("Invalid symbol: " + symbol);
         }
 
