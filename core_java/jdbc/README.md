@@ -54,10 +54,11 @@ The application is packaged using Maven, and a Docker container is used to set u
 2. **Package your Java app** using Maven:
    ```bash
    mvn clean package
-```
+	```
 Build a Docker image for your app:
+
 ```bash
-docker build -t your-dockerhub-username/stock-quote-app .
+docker build -t your-dockerhub-username/stock-quote-app
 ```
 Verify your image:
 ```bash
@@ -71,8 +72,10 @@ Push your image to Docker Hub:
 ```bash
 docker push your-dockerhub-username/stock-quote-app
 ```
-Verify your image on Docker Hub.
-Quick Start
+Verify your image on Docker Hub
+
+#Quick Start
+
 To run this app locally:
 
 Clone the repository:
@@ -85,7 +88,7 @@ cd jarvis_data_eng_LamineDjobo/core_java/jdbc
 ```
 Ensure you have Docker installed and running. Start a PostgreSQL container with the following command:
 ```bash
-docker run --name stock_quote_db -e POSTGRES_PASSWORD=password -d -p 5432:5432 postgres
+docker run --name stock_quote -e POSTGRES_PASSWORD=password -d -p 5432:5432 postgres
 ```
 Use Maven to build the project:
 ```bash
