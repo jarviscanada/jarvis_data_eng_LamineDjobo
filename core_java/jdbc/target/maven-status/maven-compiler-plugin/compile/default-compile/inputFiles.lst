@@ -1,6 +1,16 @@
 /Users/laminedjobo/JDBC/core_java/jdbc/src/main/java/ca/jrvs/apps/jdbc/CustomerDAO.java
+/Users/laminedjobo/JDBC/core_java/jdbc/src/main/java/ca/jrvs/apps/stockquote/dao/QuoteService.java
 /Users/laminedjobo/JDBC/core_java/jdbc/src/main/java/ca/jrvs/apps/jdbc/Customer.java
 /Users/laminedjobo/JDBC/core_java/jdbc/src/main/java/ca/jrvs/apps/jdbc/DataBaseConnectionManager.java
-/Users/laminedjobo/JDBC/core_java/jdbc/src/main/java/ca/jrvs/apps/jdbc/DataAccessObject.java
+/Users/laminedjobo/JDBC/core_java/jdbc/src/main/java/ca/jrvs/apps/stockquote/dao/QuoteHttpHelper.java
+/Users/laminedjobo/JDBC/core_java/jdbc/src/main/java/ca/jrvs/apps/stockquote/dao/PositionService.java
 /Users/laminedjobo/JDBC/core_java/jdbc/src/main/java/ca/jrvs/apps/jdbc/JDBCExecutor.java
+/Users/laminedjobo/JDBC/core_java/jdbc/src/main/java/ca/jrvs/apps/stockquote/dao/CrudDao.java
 /Users/laminedjobo/JDBC/core_java/jdbc/src/main/java/ca/jrvs/apps/jdbc/DataTransferObject.java
+/Users/laminedjobo/JDBC/core_java/jdbc/src/main/java/ca/jrvs/apps/stockquote/dao/Main.java
+/Users/laminedjobo/JDBC/core_java/jdbc/src/main/java/ca/jrvs/apps/stockquote/dao/Quote.java
+/Users/laminedjobo/JDBC/core_java/jdbc/src/main/java/ca/jrvs/apps/stockquote/dao/Position.java
+/Users/laminedjobo/JDBC/core_java/jdbc/src/main/java/ca/jrvs/apps/jdbc/DataAccessObject.java
+/Users/laminedjobo/JDBC/core_java/jdbc/src/main/java/ca/jrvs/apps/stockquote/dao/QuoteDao.java
+/Users/laminedjobo/JDBC/core_java/jdbc/src/main/java/ca/jrvs/apps/stockquote/dao/PositionDao.java
+/Users/laminedjobo/JDBC/core_java/jdbc/src/main/java/ca/jrvs/apps/stockquote/dao/StockQuoteController.java
