@@ -74,9 +74,9 @@ docker push your-dockerhub-username/stock-quote-app
 ```
 Verify your image on Docker Hub
 
-Quick Start
+# Quick Start
 
-Option 1: Run the app locally
+## Option 1: Run the app locally
 
 Clone the repository:
 ```bash
@@ -99,7 +99,7 @@ Run the application:
 java -jar target/stockquote-app.jar
 ```
 
-Option 2: Run using Docker
+## Option 2: Run using Docker
 
 Pull the Docker image from Docker Hub:
 ```bash
