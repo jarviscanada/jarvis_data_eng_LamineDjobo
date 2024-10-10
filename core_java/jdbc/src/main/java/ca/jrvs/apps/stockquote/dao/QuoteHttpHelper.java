@@ -14,7 +14,7 @@ import java.io.IOException;
 public class QuoteHttpHelper {
     private static final Logger logger = LogManager.getLogger(QuoteDao.class);
 
-    private static final String API_KEY = "97a17ce634msh9054341c3c37c6cp15ddb9jsn41edd7e0ae7c";
+    private static final String API_KEY = "API-KEY";
     private static final String BASE_URL = "https://alpha-vantage.p.rapidapi.com/query";
     private static final String HOST_HEADER = "alpha-vantage.p.rapidapi.com";
     private static final String API_KEY_HEADER = "x-rapidapi-key";
