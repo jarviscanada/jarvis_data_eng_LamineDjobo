@@ -53,6 +53,13 @@ jarvis_projects:
 
     description: " The Java Grep application is a command-line tool designed for system administrators and developers who need to search through large directories of text files for specific patterns. It mimics the functionality of the Unix grep command, allowing users to recursively search through files and output matching lines to a specified file. The application is implemented using Core Java, with loops and enhancements like Stream API and Lambda expressions for efficient data processing. Logging is handled via SLF4J with Log4j, and the application is containerized using Docker for easy deployment. Comprehensive testing was conducted manually to ensure reliability across different scenarios, including large files and nested directories."
 
+  - name: "Stock quote app"
+    git_url: "/core_java/jdbc"
+    # The project description allows hiring managers to understand your project and technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
+    # The project description must start with an action verb (https://bit.ly/3guO98u)
+
+    description: " The Stock Quote App is a Java-based application that simulates a stock portfolio by retrieving stock data from the Alpha Vantage API and persisting it into a PostgreSQL database. The app allows users to view stock information, buy stocks, and sell stocks, all while managing their stock portfolio. It has been implemented using technologies such as JDBC for database interaction, PostgreSQL (PSQL) for storage, Maven (MVN) for project management, and OkHttp for API communication.The test was done manually and also with Junit and Mockito.Docker was used to deploy the app."
+
 # List of personal or academic projects
 # Feel free to add more projects
 highlighted_projects:
