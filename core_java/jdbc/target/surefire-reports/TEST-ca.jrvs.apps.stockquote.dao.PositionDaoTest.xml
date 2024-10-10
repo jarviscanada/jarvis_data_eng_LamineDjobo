@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="ca.jrvs.apps.stockquote.dao.PositionDaoTest" time="0.103" tests="4" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="ca.jrvs.apps.stockquote.dao.PositionDaoTest" time="0.102" tests="4" errors="0" skipped="0" failures="1">
   <properties>
     <property name="java.specification.version" value="22"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -13,7 +13,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="CA"/>
     <property name="sun.boot.library.path" value="/Users/laminedjobo/Library/Java/JavaVirtualMachines/openjdk-22.0.2/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/laminedjobo/JDBC/core_java/jdbc/target/surefire/surefirebooter-20241010003325962_3.jar /Users/laminedjobo/JDBC/core_java/jdbc/target/surefire 2024-10-10T00-33-25_872-jvmRun1 surefire-20241010003325962_1tmp surefire_0-20241010003325962_2tmp"/>
+    <property name="sun.java.command" value="/Users/laminedjobo/JDBC/core_java/jdbc/target/surefire/surefirebooter-20241010131948773_3.jar /Users/laminedjobo/JDBC/core_java/jdbc/target/surefire 2024-10-10T13-19-48_722-jvmRun1 surefire-20241010131948773_1tmp surefire_0-20241010131948773_2tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/laminedjobo/JDBC/core_java/jdbc/target/test-classes:/Users/laminedjobo/JDBC/core_java/jdbc/target/classes:/Users/laminedjobo/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/laminedjobo/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/laminedjobo/.m2/repository/org/postgresql/postgresql/42.2.5/postgresql-42.2.5.jar:/Users/laminedjobo/.m2/repository/org/mockito/mockito-junit-jupiter/3.12.4/mockito-junit-jupiter-3.12.4.jar:/Users/laminedjobo/.m2/repository/org/mockito/mockito-core/3.12.4/mockito-core-3.12.4.jar:/Users/laminedjobo/.m2/repository/net/bytebuddy/byte-buddy/1.11.13/byte-buddy-1.11.13.jar:/Users/laminedjobo/.m2/repository/net/bytebuddy/byte-buddy-agent/1.11.13/byte-buddy-agent-1.11.13.jar:/Users/laminedjobo/.m2/repository/org/objenesis/objenesis/3.2/objenesis-3.2.jar:/Users/laminedjobo/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.7.2/junit-jupiter-api-5.7.2.jar:/Users/laminedjobo/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/laminedjobo/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/laminedjobo/.m2/repository/org/junit/platform/junit-platform-commons/1.7.2/junit-platform-commons-1.7.2.jar:/Users/laminedjobo/.m2/repository/org/slf4j/slf4j-log4j12/1.7.28/slf4j-log4j12-1.7.28.jar:/Users/laminedjobo/.m2/repository/org/slf4j/slf4j-api/1.7.28/slf4j-api-1.7.28.jar:/Users/laminedjobo/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/Users/laminedjobo/.m2/repository/com/squareup/okhttp3/okhttp/5.0.0-alpha.11/okhttp-5.0.0-alpha.11.jar:/Users/laminedjobo/.m2/repository/com/squareup/okhttp3/okhttp-jvm/5.0.0-alpha.11/okhttp-jvm-5.0.0-alpha.11.jar:/Users/laminedjobo/.m2/repository/com/squareup/okio/okio-jvm/3.2.0/okio-jvm-3.2.0.jar:/Users/laminedjobo/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.6.20/kotlin-stdlib-jdk8-1.6.20.jar:/Users/laminedjobo/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.6.20/kotlin-stdlib-jdk7-1.6.20.jar:/Users/laminedjobo/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib/1.7.10/kotlin-stdlib-1.7.10.jar:/Users/laminedjobo/.m2/repository/org/jetbrains/annotations/13.0/annotations-13.0.jar:/Users/laminedjobo/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-common/1.7.10/kotlin-stdlib-common-1.7.10.jar:/Users/laminedjobo/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.16.1/jackson-databind-2.16.1.jar:/Users/laminedjobo/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.16.1/jackson-annotations-2.16.1.jar:/Users/laminedjobo/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.16.1/jackson-core-2.16.1.jar:"/>
@@ -30,7 +30,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="apple.awt.application.name" value="ForkedBooter"/>
-    <property name="surefire.real.class.path" value="/Users/laminedjobo/JDBC/core_java/jdbc/target/surefire/surefirebooter-20241010003325962_3.jar"/>
+    <property name="surefire.real.class.path" value="/Users/laminedjobo/JDBC/core_java/jdbc/target/surefire/surefirebooter-20241010131948773_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="22.0.2+9-70"/>
@@ -58,27 +58,14 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="66.0"/>
   </properties>
-  <testcase name="testSaveAndFindPosition" classname="ca.jrvs.apps.stockquote.dao.PositionDaoTest" time="0.042">
-    <system-out><![CDATA[2024-10-10 00:33:27,678 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
-2024-10-10 00:33:27,680 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
-]]></system-out>
-  </testcase>
-  <testcase name="testDeleteAllPositions" classname="ca.jrvs.apps.stockquote.dao.PositionDaoTest" time="0.02">
-    <system-out><![CDATA[2024-10-10 00:33:27,700 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
-2024-10-10 00:33:27,702 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
-2024-10-10 00:33:27,703 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Fetched 0 positions from the database.
-]]></system-out>
-  </testcase>
-  <testcase name="testDeletePositionById" classname="ca.jrvs.apps.stockquote.dao.PositionDaoTest" time="0.017">
-    <system-out><![CDATA[2024-10-10 00:33:27,717 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
-2024-10-10 00:33:27,719 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
-]]></system-out>
-  </testcase>
-  <testcase name="testFindAllPositions" classname="ca.jrvs.apps.stockquote.dao.PositionDaoTest" time="0.022">
+  <testcase name="testSaveAndFindPosition" classname="ca.jrvs.apps.stockquote.dao.PositionDaoTest" time="0.019"/>
+  <testcase name="testDeleteAllPositions" classname="ca.jrvs.apps.stockquote.dao.PositionDaoTest" time="0.025"/>
+  <testcase name="testDeletePositionById" classname="ca.jrvs.apps.stockquote.dao.PositionDaoTest" time="0.048"/>
+  <testcase name="testFindAllPositions" classname="ca.jrvs.apps.stockquote.dao.PositionDaoTest" time="0.009">
     <failure message="The list of positions should not be empty" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: The list of positions should not be empty
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.assertTrue(Assert.java:41)
-	at ca.jrvs.apps.stockquote.dao.PositionDaoTest.testFindAllPositions(PositionDaoTest.java:61)
+	at ca.jrvs.apps.stockquote.dao.PositionDaoTest.testFindAllPositions(PositionDaoTest.java:64)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
@@ -126,9 +113,5 @@
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></failure>
-    <system-out><![CDATA[2024-10-10 00:33:27,730 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
-2024-10-10 00:33:27,741 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
-2024-10-10 00:33:27,742 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Fetched 0 positions from the database.
-]]></system-out>
   </testcase>
 </testsuite>

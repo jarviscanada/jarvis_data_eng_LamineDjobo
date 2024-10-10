@@ -23,7 +23,7 @@ public class PositionDao_IntTest {
 
         // Add a quote for AAPL to satisfy the foreign key constraint
         Quote quote = new Quote();
-        quote.setTicker("AAPL");
+        quote.setTicker("AAPL12");
         quote.setOpen(150.0);
         quote.setHigh(155.0);
         quote.setLow(145.0);
@@ -41,14 +41,14 @@ public class PositionDao_IntTest {
     public void testSaveAndFindPosition() {
         // Now save the position for AAPL
         Position position = new Position();
-        position.setTicker("AAPL");
+        position.setTicker("AAPL12");
         position.setNumOfShares(100);
         position.setValuePaid(14500.0);
 
         positionDao.save(position);
 
         // Find the saved position by ticker
-        Optional<Position> result = positionDao.findById("AAPL");
+        Optional<Position> result = positionDao.findById("AAPL12");
         assertTrue(result.isPresent());
         assertEquals(100, result.get().getNumOfShares());
         assertEquals(14500.0, result.get().getValuePaid(), 0);
@@ -64,7 +64,7 @@ public class PositionDao_IntTest {
 
     @Test
     public void testDeletePositionById() {
-        String ticker = "AAPL";
+        String ticker = "AAPL12";
 
         // Delete the position by ticker
         positionDao.deleteById(ticker);

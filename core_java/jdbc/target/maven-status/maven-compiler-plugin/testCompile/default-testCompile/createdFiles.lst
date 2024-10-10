@@ -1,6 +1,8 @@
 ca/jrvs/apps/stockquote/dao/QuoteHttpHelperTest.class
 ca/jrvs/apps/stockquote/dao/PositionDaoTest.class
+ca/jrvs/apps/stockquote/dao/QuoteDao_IntTest.class
 ca/jrvs/apps/stockquote/dao/QuoteDaoTest.class
+ca/jrvs/apps/stockquote/dao/PositionDao_IntTest.class
 ca/jrvs/apps/stockquote/dao/PositionService_UnitTest.class
 ca/jrvs/apps/stockquote/dao/QuoteService_UnitTest.class
 ca/jrvs/apps/stockquote/dao/PositionService_IntTest.class
