@@ -74,9 +74,9 @@ docker push your-dockerhub-username/stock-quote-app
 ```
 Verify your image on Docker Hub
 
-#Quick Start
+Quick Start
 
-To run this app locally:
+Option 1: Run the app locally
 
 Clone the repository:
 ```bash
@@ -98,4 +98,17 @@ Run the application:
 ```bash
 java -jar target/stockquote-app.jar
 ```
+
+Option 2: Run using Docker
+
+Pull the Docker image from Docker Hub:
+```bash
+docker pull lamine005/stock-quote-app
+```
+
+Run the container:
+```bash
+docker run -p 8080:8080 lamine005/stock-quote-app
+```
+
 You can now interact with the app through the console interface by buying, selling, and viewing stocks.
