@@ -14,8 +14,11 @@ import java.io.IOException;
 public class QuoteHttpHelper {
     private static final Logger logger = LogManager.getLogger(QuoteDao.class);
 
-    private static final String API_KEY = "97a17ce634msh9054341c3c37c6cp15ddb9jsn41edd7e0ae7c"; // Alpha Vantage API key
-    private static final String BASE_URL = "https://www.alphavantage.co/query";
+    private static final String API_KEY = "97a17ce634msh9054341c3c37c6cp15ddb9jsn41edd7e0ae7c";
+    private static final String BASE_URL = "https://alpha-vantage.p.rapidapi.com/query";
+    private static final String HOST_HEADER = "alpha-vantage.p.rapidapi.com";
+    private static final String API_KEY_HEADER = "x-rapidapi-key";
+
     private OkHttpClient client;
 
     public QuoteHttpHelper() {
@@ -27,10 +30,16 @@ public class QuoteHttpHelper {
         HttpUrl url = HttpUrl.parse(BASE_URL).newBuilder()
                 .addQueryParameter("function", "GLOBAL_QUOTE")
                 .addQueryParameter("symbol", symbol)
-                .addQueryParameter("apikey", API_KEY)
+                .addQueryParameter("datatype", "json")  // Add this if you want JSON format explicitly
                 .build();
 
-        Request request = new Request.Builder().url(url).build();
+        // Build the request with headers
+        Request request = new Request.Builder()
+                .url(url)
+                .addHeader("x-rapidapi-host", HOST_HEADER)
+                .addHeader(API_KEY_HEADER, API_KEY)
+                .build();
+
         Response response = client.newCall(request).execute();
 
         if (!response.isSuccessful()) {

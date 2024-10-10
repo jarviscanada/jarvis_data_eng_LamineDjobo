@@ -562,3 +562,276 @@ org.postgresql.util.PSQLException: ERROR: update or delete on table "quote" viol
 2024-10-10 01:50:38,742 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
 2024-10-10 01:50:38,766 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
 2024-10-10 01:50:38,772 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Fetched 1 positions from the database.
+2024-10-10 13:08:54,754 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Reading properties from properties.txt
+2024-10-10 13:08:54,755 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Properties loaded successfully
+2024-10-10 13:08:54,755 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Loading database driver: {}
+2024-10-10 13:08:54,764 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Database driver loaded successfully
+2024-10-10 13:08:55,059 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Connecting to the database
+2024-10-10 13:08:55,238 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Database connection established successfully
+2024-10-10 13:08:55,242 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Starting the StockQuoteController UI
+2024-10-10 13:08:55,244 [main] INFO  ca.jrvs.apps.stockquote.dao.StockQuoteController - Initializing Stock Quote App client
+2024-10-10 13:09:00,557 [main] INFO  ca.jrvs.apps.stockquote.dao.StockQuoteController - Fetching stock information
+2024-10-10 13:09:00,557 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Fetching all quotes
+2024-10-10 13:09:00,584 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Found {} quotes
+2024-10-10 13:09:09,922 [main] ERROR ca.jrvs.apps.stockquote.dao.QuoteDao - Error finding this symbol
+2024-10-10 13:11:59,888 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Reading properties from properties.txt
+2024-10-10 13:11:59,889 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Properties loaded successfully
+2024-10-10 13:11:59,889 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Loading database driver: {}
+2024-10-10 13:11:59,898 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Database driver loaded successfully
+2024-10-10 13:12:00,122 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Connecting to the database
+2024-10-10 13:12:00,221 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Database connection established successfully
+2024-10-10 13:12:00,227 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Starting the StockQuoteController UI
+2024-10-10 13:12:00,231 [main] INFO  ca.jrvs.apps.stockquote.dao.StockQuoteController - Initializing Stock Quote App client
+2024-10-10 13:12:13,596 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Reading properties from properties.txt
+2024-10-10 13:12:13,597 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Properties loaded successfully
+2024-10-10 13:12:13,597 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Loading database driver: {}
+2024-10-10 13:12:13,604 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Database driver loaded successfully
+2024-10-10 13:12:13,814 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Connecting to the database
+2024-10-10 13:12:13,948 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Database connection established successfully
+2024-10-10 13:12:13,951 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Starting the StockQuoteController UI
+2024-10-10 13:12:13,953 [main] INFO  ca.jrvs.apps.stockquote.dao.StockQuoteController - Initializing Stock Quote App client
+2024-10-10 13:12:27,864 [main] INFO  ca.jrvs.apps.stockquote.dao.StockQuoteController - Fetching stock information
+2024-10-10 13:12:27,865 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Fetching all quotes
+2024-10-10 13:12:27,895 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Found {} quotes
+2024-10-10 13:12:37,737 [main] ERROR ca.jrvs.apps.stockquote.dao.QuoteDao - Error finding this symbol
+2024-10-10 13:16:06,389 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Reading properties from properties.txt
+2024-10-10 13:16:06,389 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Properties loaded successfully
+2024-10-10 13:16:06,389 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Loading database driver: {}
+2024-10-10 13:16:06,396 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Database driver loaded successfully
+2024-10-10 13:16:06,594 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Connecting to the database
+2024-10-10 13:16:06,704 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Database connection established successfully
+2024-10-10 13:16:06,709 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Starting the StockQuoteController UI
+2024-10-10 13:16:06,711 [main] INFO  ca.jrvs.apps.stockquote.dao.StockQuoteController - Initializing Stock Quote App client
+2024-10-10 13:16:09,453 [main] INFO  ca.jrvs.apps.stockquote.dao.StockQuoteController - Fetching stock information
+2024-10-10 13:16:09,453 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Fetching all quotes
+2024-10-10 13:16:09,473 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Found {} quotes
+2024-10-10 13:16:13,487 [main] ERROR ca.jrvs.apps.stockquote.dao.QuoteDao - Error finding this symbol
+2024-10-10 13:16:13,488 [main] ERROR ca.jrvs.apps.stockquote.dao.StockQuoteController - Error occurred while viewing stock information: Invalid symbol: MSFT
+java.lang.IllegalArgumentException: Invalid symbol: MSFT
+	at ca.jrvs.apps.stockquote.dao.QuoteHttpHelper.fetchQuoteInfo(QuoteHttpHelper.java:47)
+	at ca.jrvs.apps.stockquote.dao.QuoteService.fetchQuoteDataFromAPI(QuoteService.java:32)
+	at ca.jrvs.apps.stockquote.dao.StockQuoteController.viewStockInformation(StockQuoteController.java:92)
+	at ca.jrvs.apps.stockquote.dao.StockQuoteController.initClient(StockQuoteController.java:42)
+	at ca.jrvs.apps.stockquote.dao.Main.main(Main.java:67)
+2024-10-10 13:16:13,489 [main] INFO  ca.jrvs.apps.stockquote.dao.StockQuoteController - Initializing Stock Quote App client
+2024-10-10 13:17:09,231 [main] ERROR ca.jrvs.apps.stockquote.dao.QuoteDao - Error finding this symbol
+2024-10-10 13:17:09,231 [main] ERROR ca.jrvs.apps.stockquote.dao.QuoteHttpHelper - Error finding position: java.lang.IllegalArgumentException: Invalid symbol: AAPL
+2024-10-10 13:19:49,738 [main] ERROR ca.jrvs.apps.stockquote.dao.QuoteDao - Error finding this symbol
+2024-10-10 13:19:49,893 [main] ERROR ca.jrvs.apps.stockquote.dao.QuoteDao - Error finding this symbol
+2024-10-10 13:19:49,998 [main] ERROR ca.jrvs.apps.stockquote.dao.QuoteDao - Error finding this symbol
+2024-10-10 13:19:50,020 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 13:19:50,036 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 13:19:50,066 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 13:19:50,068 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 13:19:50,070 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Fetched 0 positions from the database.
+2024-10-10 13:19:50,091 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 13:19:50,093 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 13:19:50,113 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 13:19:50,115 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 13:19:50,116 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Fetched 0 positions from the database.
+2024-10-10 13:19:50,155 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 13:19:50,156 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 13:19:50,179 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 13:19:50,183 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 13:19:50,184 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Fetched 0 positions from the database.
+2024-10-10 13:19:50,229 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 13:19:50,231 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 13:19:50,239 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 13:19:50,241 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 13:19:50,241 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Fetched 0 positions from the database.
+2024-10-10 13:19:50,249 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Deleting quote and associated positions
+2024-10-10 13:19:50,251 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote and positions deleted successfully
+2024-10-10 13:19:50,251 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Fetching quote with symbol
+2024-10-10 13:19:50,251 [main] WARN  ca.jrvs.apps.stockquote.dao.QuoteDao - No quote found for this symbol
+2024-10-10 13:19:50,259 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Deleting all quotes
+2024-10-10 13:19:50,261 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - All quotes deleted successfully
+2024-10-10 13:19:50,261 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Fetching all quotes
+2024-10-10 13:19:50,261 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Found {} quotes
+2024-10-10 13:19:50,272 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 13:19:50,274 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 13:19:50,274 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Fetching quote with symbol
+2024-10-10 13:19:50,276 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Found quote
+2024-10-10 13:19:50,290 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Fetching all quotes
+2024-10-10 13:19:50,292 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Found {} quotes
+2024-10-10 13:19:50,310 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Deleting quote and associated positions
+2024-10-10 13:19:50,311 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote and positions deleted successfully
+2024-10-10 13:19:50,311 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Fetching quote with symbol
+2024-10-10 13:19:50,312 [main] WARN  ca.jrvs.apps.stockquote.dao.QuoteDao - No quote found for this symbol
+2024-10-10 13:19:50,323 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Deleting all quotes
+2024-10-10 13:19:50,326 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - All quotes deleted successfully
+2024-10-10 13:19:50,326 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Fetching all quotes
+2024-10-10 13:19:50,327 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Found {} quotes
+2024-10-10 13:19:50,379 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 13:19:50,385 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 13:19:50,385 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Fetching quote with symbol
+2024-10-10 13:19:50,386 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Found quote
+2024-10-10 13:19:50,398 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Fetching all quotes
+2024-10-10 13:19:50,399 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Found {} quotes
+2024-10-10 13:20:24,120 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Reading properties from properties.txt
+2024-10-10 13:20:24,121 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Properties loaded successfully
+2024-10-10 13:20:24,121 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Loading database driver: {}
+2024-10-10 13:20:24,128 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Database driver loaded successfully
+2024-10-10 13:20:24,339 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Connecting to the database
+2024-10-10 13:20:24,428 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Database connection established successfully
+2024-10-10 13:20:24,430 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Starting the StockQuoteController UI
+2024-10-10 13:20:24,433 [main] INFO  ca.jrvs.apps.stockquote.dao.StockQuoteController - Initializing Stock Quote App client
+2024-10-10 13:20:28,126 [main] INFO  ca.jrvs.apps.stockquote.dao.StockQuoteController - Fetching stock information
+2024-10-10 13:20:28,126 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Fetching all quotes
+2024-10-10 13:20:28,149 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Found {} quotes
+2024-10-10 13:20:34,910 [main] ERROR ca.jrvs.apps.stockquote.dao.QuoteDao - Error finding this symbol
+2024-10-10 13:20:34,911 [main] ERROR ca.jrvs.apps.stockquote.dao.StockQuoteController - Error occurred while viewing stock information: Invalid symbol: MSFT
+java.lang.IllegalArgumentException: Invalid symbol: MSFT
+	at ca.jrvs.apps.stockquote.dao.QuoteHttpHelper.fetchQuoteInfo(QuoteHttpHelper.java:47)
+	at ca.jrvs.apps.stockquote.dao.QuoteService.fetchQuoteDataFromAPI(QuoteService.java:32)
+	at ca.jrvs.apps.stockquote.dao.StockQuoteController.viewStockInformation(StockQuoteController.java:92)
+	at ca.jrvs.apps.stockquote.dao.StockQuoteController.initClient(StockQuoteController.java:42)
+	at ca.jrvs.apps.stockquote.dao.Main.main(Main.java:67)
+2024-10-10 13:20:34,912 [main] INFO  ca.jrvs.apps.stockquote.dao.StockQuoteController - Initializing Stock Quote App client
+2024-10-10 13:29:22,765 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Reading properties from properties.txt
+2024-10-10 13:29:22,767 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Properties loaded successfully
+2024-10-10 13:29:22,767 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Loading database driver: {}
+2024-10-10 13:29:22,774 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Database driver loaded successfully
+2024-10-10 13:29:22,987 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Connecting to the database
+2024-10-10 13:29:23,108 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Database connection established successfully
+2024-10-10 13:29:23,113 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Starting the StockQuoteController UI
+2024-10-10 13:29:23,117 [main] INFO  ca.jrvs.apps.stockquote.dao.StockQuoteController - Initializing Stock Quote App client
+2024-10-10 13:29:25,453 [main] INFO  ca.jrvs.apps.stockquote.dao.StockQuoteController - Fetching stock information
+2024-10-10 13:29:25,454 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Fetching all quotes
+2024-10-10 13:29:25,499 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Found {} quotes
+2024-10-10 13:29:28,582 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 13:29:28,593 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 13:29:28,593 [main] INFO  ca.jrvs.apps.stockquote.dao.StockQuoteController - Displaying stock information for MSFT
+2024-10-10 13:29:28,596 [main] WARN  ca.jrvs.apps.stockquote.dao.StockQuoteController - No stock for ticker: MSFT found in the portfolio
+2024-10-10 13:29:28,596 [main] INFO  ca.jrvs.apps.stockquote.dao.StockQuoteController - Initializing Stock Quote App client
+2024-10-10 13:31:37,037 [main] INFO  ca.jrvs.apps.stockquote.dao.StockQuoteController - Starting buy stock process
+2024-10-10 13:31:37,038 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Fetching all quotes
+2024-10-10 13:31:37,052 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Found {} quotes
+2024-10-10 13:31:48,104 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 13:31:48,109 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 13:31:48,111 [main] ERROR ca.jrvs.apps.stockquote.dao.StockQuoteController - Error during stock purchase: Cannot buy more than available volume
+java.lang.IllegalArgumentException: Cannot buy more than available volume
+	at ca.jrvs.apps.stockquote.dao.PositionService.buy(PositionService.java:36)
+	at ca.jrvs.apps.stockquote.dao.StockQuoteController.buyStock(StockQuoteController.java:168)
+	at ca.jrvs.apps.stockquote.dao.StockQuoteController.initClient(StockQuoteController.java:45)
+	at ca.jrvs.apps.stockquote.dao.Main.main(Main.java:67)
+2024-10-10 13:31:49,610 [main] INFO  ca.jrvs.apps.stockquote.dao.StockQuoteController - Initializing Stock Quote App client
+2024-10-10 13:32:07,578 [main] INFO  ca.jrvs.apps.stockquote.dao.StockQuoteController - Starting buy stock process
+2024-10-10 13:32:07,579 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Fetching all quotes
+2024-10-10 13:32:07,591 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Found {} quotes
+2024-10-10 13:32:15,374 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 13:32:15,389 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 13:32:15,390 [main] ERROR ca.jrvs.apps.stockquote.dao.StockQuoteController - Error during stock purchase: Cannot buy more than available volume
+java.lang.IllegalArgumentException: Cannot buy more than available volume
+	at ca.jrvs.apps.stockquote.dao.PositionService.buy(PositionService.java:36)
+	at ca.jrvs.apps.stockquote.dao.StockQuoteController.buyStock(StockQuoteController.java:168)
+	at ca.jrvs.apps.stockquote.dao.StockQuoteController.initClient(StockQuoteController.java:45)
+	at ca.jrvs.apps.stockquote.dao.Main.main(Main.java:67)
+2024-10-10 13:32:16,670 [main] INFO  ca.jrvs.apps.stockquote.dao.StockQuoteController - Initializing Stock Quote App client
+2024-10-10 13:32:40,757 [main] INFO  ca.jrvs.apps.stockquote.dao.StockQuoteController - Starting buy stock process
+2024-10-10 13:32:40,758 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Fetching all quotes
+2024-10-10 13:32:40,765 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Found {} quotes
+2024-10-10 13:32:46,812 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 13:32:46,821 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 13:32:46,832 [main] INFO  ca.jrvs.apps.stockquote.dao.StockQuoteController - Initializing Stock Quote App client
+2024-10-10 13:34:21,907 [main] INFO  ca.jrvs.apps.stockquote.dao.StockQuoteController - Starting sell stock process
+2024-10-10 13:34:29,050 [main] INFO  ca.jrvs.apps.stockquote.dao.StockQuoteController - Initializing Stock Quote App client
+2024-10-10 13:34:33,890 [main] INFO  ca.jrvs.apps.stockquote.dao.StockQuoteController - Fetching stock information
+2024-10-10 13:34:33,890 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Fetching all quotes
+2024-10-10 13:34:33,896 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Found {} quotes
+2024-10-10 13:34:39,499 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 13:34:39,506 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 13:34:39,506 [main] INFO  ca.jrvs.apps.stockquote.dao.StockQuoteController - Displaying stock information for MSFT
+2024-10-10 13:34:39,507 [main] WARN  ca.jrvs.apps.stockquote.dao.StockQuoteController - No stock for ticker: MSFT found in the portfolio
+2024-10-10 13:34:39,507 [main] INFO  ca.jrvs.apps.stockquote.dao.StockQuoteController - Initializing Stock Quote App client
+2024-10-10 13:35:27,696 [main] INFO  ca.jrvs.apps.stockquote.dao.StockQuoteController - Starting buy stock process
+2024-10-10 13:35:27,702 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Fetching all quotes
+2024-10-10 13:35:27,707 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Found {} quotes
+2024-10-10 13:35:37,676 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 13:35:37,773 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 13:35:37,779 [main] INFO  ca.jrvs.apps.stockquote.dao.StockQuoteController - Initializing Stock Quote App client
+2024-10-10 13:35:53,219 [main] INFO  ca.jrvs.apps.stockquote.dao.StockQuoteController - Starting buy stock process
+2024-10-10 13:35:53,220 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Fetching all quotes
+2024-10-10 13:35:53,245 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Found {} quotes
+2024-10-10 13:35:59,321 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 13:35:59,331 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 13:35:59,335 [main] INFO  ca.jrvs.apps.stockquote.dao.StockQuoteController - Initializing Stock Quote App client
+2024-10-10 13:38:12,400 [main] INFO  ca.jrvs.apps.stockquote.dao.StockQuoteController - Starting buy stock process
+2024-10-10 13:38:12,402 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Fetching all quotes
+2024-10-10 13:38:12,414 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Found {} quotes
+2024-10-10 13:38:21,152 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 13:38:21,165 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 13:38:21,197 [main] ERROR ca.jrvs.apps.stockquote.dao.StockQuoteController - Error during stock purchase: Error saving position
+java.lang.IllegalArgumentException: Error saving position
+	at ca.jrvs.apps.stockquote.dao.PositionDao.save(PositionDao.java:36)
+	at ca.jrvs.apps.stockquote.dao.PositionService.buy(PositionService.java:46)
+	at ca.jrvs.apps.stockquote.dao.StockQuoteController.buyStock(StockQuoteController.java:168)
+	at ca.jrvs.apps.stockquote.dao.StockQuoteController.initClient(StockQuoteController.java:45)
+	at ca.jrvs.apps.stockquote.dao.Main.main(Main.java:67)
+Caused by: org.postgresql.util.PSQLException: ERROR: numeric field overflow
+  Détail : A field with precision 10, scale 2 must round to an absolute value less than 10^8.
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2440)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2183)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:308)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:441)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:365)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:143)
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:120)
+	at ca.jrvs.apps.stockquote.dao.PositionDao.save(PositionDao.java:31)
+	... 4 more
+2024-10-10 13:38:31,619 [main] INFO  ca.jrvs.apps.stockquote.dao.StockQuoteController - Initializing Stock Quote App client
+2024-10-10 13:38:36,982 [main] INFO  ca.jrvs.apps.stockquote.dao.StockQuoteController - Starting buy stock process
+2024-10-10 13:38:36,983 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Fetching all quotes
+2024-10-10 13:38:36,990 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Found {} quotes
+2024-10-10 13:38:42,960 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 13:38:42,965 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 13:38:42,970 [main] INFO  ca.jrvs.apps.stockquote.dao.StockQuoteController - Initializing Stock Quote App client
+2024-10-10 13:38:51,606 [main] INFO  ca.jrvs.apps.stockquote.dao.StockQuoteController - Starting buy stock process
+2024-10-10 13:38:51,606 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Fetching all quotes
+2024-10-10 13:38:51,609 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Found {} quotes
+2024-10-10 13:38:58,933 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 13:38:58,946 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 13:38:58,949 [main] ERROR ca.jrvs.apps.stockquote.dao.StockQuoteController - Error during stock purchase: Error saving position
+java.lang.IllegalArgumentException: Error saving position
+	at ca.jrvs.apps.stockquote.dao.PositionDao.save(PositionDao.java:36)
+	at ca.jrvs.apps.stockquote.dao.PositionService.buy(PositionService.java:46)
+	at ca.jrvs.apps.stockquote.dao.StockQuoteController.buyStock(StockQuoteController.java:168)
+	at ca.jrvs.apps.stockquote.dao.StockQuoteController.initClient(StockQuoteController.java:45)
+	at ca.jrvs.apps.stockquote.dao.Main.main(Main.java:67)
+Caused by: org.postgresql.util.PSQLException: ERROR: numeric field overflow
+  Détail : A field with precision 10, scale 2 must round to an absolute value less than 10^8.
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2440)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2183)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:308)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:441)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:365)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:143)
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:120)
+	at ca.jrvs.apps.stockquote.dao.PositionDao.save(PositionDao.java:31)
+	... 4 more
+2024-10-10 13:39:02,730 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Fetching all quotes
+2024-10-10 13:39:02,733 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Found {} quotes
+2024-10-10 13:39:10,927 [main] ERROR ca.jrvs.apps.stockquote.dao.QuoteDao - Error finding this symbol
+2024-10-10 13:39:10,934 [main] ERROR ca.jrvs.apps.stockquote.dao.StockQuoteController - Error during stock purchase: Invalid symbol: 34
+java.lang.IllegalArgumentException: Invalid symbol: 34
+	at ca.jrvs.apps.stockquote.dao.QuoteHttpHelper.fetchQuoteInfo(QuoteHttpHelper.java:56)
+	at ca.jrvs.apps.stockquote.dao.QuoteService.fetchQuoteDataFromAPI(QuoteService.java:32)
+	at ca.jrvs.apps.stockquote.dao.PositionService.buy(PositionService.java:31)
+	at ca.jrvs.apps.stockquote.dao.StockQuoteController.buyStock(StockQuoteController.java:168)
+	at ca.jrvs.apps.stockquote.dao.StockQuoteController.initClient(StockQuoteController.java:45)
+	at ca.jrvs.apps.stockquote.dao.Main.main(Main.java:67)
+2024-10-10 13:39:15,956 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Fetching all quotes
+2024-10-10 13:39:15,964 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Found {} quotes
+2024-10-10 13:39:21,146 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 13:39:21,153 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 13:39:21,157 [main] INFO  ca.jrvs.apps.stockquote.dao.StockQuoteController - Initializing Stock Quote App client
+2024-10-10 13:39:24,865 [main] INFO  ca.jrvs.apps.stockquote.dao.StockQuoteController - Fetching stock information
+2024-10-10 13:39:24,865 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Fetching all quotes
+2024-10-10 13:39:24,868 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Found {} quotes
+2024-10-10 13:39:35,997 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 13:39:36,004 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 13:39:36,004 [main] INFO  ca.jrvs.apps.stockquote.dao.StockQuoteController - Displaying stock information for MSFT
+2024-10-10 13:39:36,005 [main] INFO  ca.jrvs.apps.stockquote.dao.StockQuoteController - Initializing Stock Quote App client
+2024-10-10 13:39:42,739 [main] INFO  ca.jrvs.apps.stockquote.dao.StockQuoteController - Starting sell stock process
+2024-10-10 13:39:49,044 [main] INFO  ca.jrvs.apps.stockquote.dao.StockQuoteController - Initializing Stock Quote App client
+2024-10-10 13:43:32,774 [main] INFO  ca.jrvs.apps.stockquote.dao.StockQuoteController - Starting sell stock process
+2024-10-10 13:43:36,449 [main] INFO  ca.jrvs.apps.stockquote.dao.StockQuoteController - Initializing Stock Quote App client

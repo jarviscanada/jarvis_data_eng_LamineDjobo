@@ -1,8 +1,10 @@
 /Users/laminedjobo/JDBC/core_java/jdbc/src/test/java/ca/jrvs/apps/stockquote/dao/QuoteHttpHelperTestMock.java
 /Users/laminedjobo/JDBC/core_java/jdbc/src/test/java/ca/jrvs/apps/stockquote/dao/PositionDaoTest.java
 /Users/laminedjobo/JDBC/core_java/jdbc/src/test/java/ca/jrvs/apps/stockquote/dao/QuoteHttpHelperTest.java
+/Users/laminedjobo/JDBC/core_java/jdbc/src/test/java/ca/jrvs/apps/stockquote/dao/PositionDao_IntTest.java
 /Users/laminedjobo/JDBC/core_java/jdbc/src/test/java/ca/jrvs/apps/stockquote/dao/PositionService_UnitTest.java
 /Users/laminedjobo/JDBC/core_java/jdbc/src/test/java/ca/jrvs/apps/stockquote/dao/QuoteService_IntTest.java
+/Users/laminedjobo/JDBC/core_java/jdbc/src/test/java/ca/jrvs/apps/stockquote/dao/QuoteDao_IntTest.java
 /Users/laminedjobo/JDBC/core_java/jdbc/src/test/java/ca/jrvs/apps/stockquote/dao/QuoteDaoTest.java
 /Users/laminedjobo/JDBC/core_java/jdbc/src/test/java/ca/jrvs/apps/stockquote/dao/QuoteService_UnitTest.java
 /Users/laminedjobo/JDBC/core_java/jdbc/src/test/java/ca/jrvs/apps/stockquote/dao/PositionService_IntTest.java

@@ -66,7 +66,7 @@ public class PositionDaoTest {
 
     @Test
     public void testDeletePositionById() {
-        String ticker = "AAPL1";
+        String ticker = "AAPL12";
 
         // Delete the position by ticker
         positionDao.deleteById(ticker);

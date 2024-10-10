@@ -1,13 +1,12 @@
 -------------------------------------------------------------------------------
-Test set: ca.jrvs.apps.stockquote.dao.PositionService_IntTest
+Test set: ca.jrvs.apps.stockquote.dao.PositionDao_IntTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.465 s <<< FAILURE! -- in ca.jrvs.apps.stockquote.dao.PositionService_IntTest
-ca.jrvs.apps.stockquote.dao.PositionService_IntTest.testBuyAndSell -- Time elapsed: 0.464 s <<< ERROR!
-java.lang.IllegalArgumentException: Invalid symbol: AAPL
-	at ca.jrvs.apps.stockquote.dao.QuoteHttpHelper.fetchQuoteInfo(QuoteHttpHelper.java:47)
-	at ca.jrvs.apps.stockquote.dao.QuoteService.fetchQuoteDataFromAPI(QuoteService.java:32)
-	at ca.jrvs.apps.stockquote.dao.PositionService.buy(PositionService.java:31)
-	at ca.jrvs.apps.stockquote.dao.PositionService_IntTest.testBuyAndSell(PositionService_IntTest.java:34)
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.117 s <<< FAILURE! -- in ca.jrvs.apps.stockquote.dao.PositionDao_IntTest
+ca.jrvs.apps.stockquote.dao.PositionDao_IntTest.testFindAllPositions -- Time elapsed: 0.022 s <<< FAILURE!
+java.lang.AssertionError: The list of positions should not be empty
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at ca.jrvs.apps.stockquote.dao.PositionDao_IntTest.testFindAllPositions(PositionDao_IntTest.java:61)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
