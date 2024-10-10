@@ -11,6 +11,8 @@ The Stock Quote App is a Java-based application that simulates a stock portfolio
 The application utilizes a relational database for managing stock quotes and positions. Below is a simple ER diagram representing the relationships:
 
 
+<img width="419" alt="ER diagram" src="https://github.com/user-attachments/assets/b4463c46-db65-4a5b-855b-360feae33b9f">
+
 ### Design Patterns
 
 This project makes use of the **DAO (Data Access Object)** design pattern. 
