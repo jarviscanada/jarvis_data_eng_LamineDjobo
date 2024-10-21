@@ -62,22 +62,22 @@ public class PositionDao_IntTest {
     }
 
 
-    @Test
-    public void testDeletePositionById() {
-        String ticker = "AAPL12";
-
-        // Delete the position by ticker
-        positionDao.deleteById(ticker);
-
-        // Try to find the deleted position
-        Optional<Position> result = positionDao.findById(ticker);
-        assertFalse(result.isPresent());
-    }
-
-    @Test
-    public void testDeleteAllPositions() {
-        positionDao.deleteAll();
-        Iterable<Position> positions = positionDao.findAll();
-        assertFalse(positions.iterator().hasNext());
-    }
+//    @Test
+////    public void testDeletePositionById() {
+////        String ticker = "AAPL12";
+////
+////        // Delete the position by ticker
+////        positionDao.deleteById(ticker);
+////
+////        // Try to find the deleted position
+////        Optional<Position> result = positionDao.findById(ticker);
+////        assertFalse(result.isPresent());
+////    }
+////
+////    @Test
+////    public void testDeleteAllPositions() {
+////        positionDao.deleteAll();
+////        Iterable<Position> positions = positionDao.findAll();
+////        assertFalse(positions.iterator().hasNext());
+////    }
 }

@@ -835,3 +835,328 @@ java.lang.IllegalArgumentException: Invalid symbol: 34
 2024-10-10 13:39:49,044 [main] INFO  ca.jrvs.apps.stockquote.dao.StockQuoteController - Initializing Stock Quote App client
 2024-10-10 13:43:32,774 [main] INFO  ca.jrvs.apps.stockquote.dao.StockQuoteController - Starting sell stock process
 2024-10-10 13:43:36,449 [main] INFO  ca.jrvs.apps.stockquote.dao.StockQuoteController - Initializing Stock Quote App client
+2024-10-10 14:40:04,792 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 14:40:04,829 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 14:40:05,936 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 14:40:05,944 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 14:40:06,881 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 14:40:06,884 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 14:40:06,927 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 14:40:06,928 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 14:40:06,930 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Fetched 0 positions from the database.
+2024-10-10 14:40:06,947 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 14:40:06,949 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 14:40:07,015 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 14:40:07,017 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 14:40:07,018 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Fetched 0 positions from the database.
+2024-10-10 14:40:07,071 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 14:40:07,073 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 14:40:07,085 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 14:40:07,087 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 14:40:07,088 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Fetched 0 positions from the database.
+2024-10-10 14:40:07,097 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 14:40:07,099 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 14:40:07,110 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 14:40:07,111 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 14:40:07,112 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Fetched 0 positions from the database.
+2024-10-10 14:40:07,121 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Deleting quote and associated positions
+2024-10-10 14:40:07,123 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote and positions deleted successfully
+2024-10-10 14:40:07,123 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Fetching quote with symbol
+2024-10-10 14:40:07,123 [main] WARN  ca.jrvs.apps.stockquote.dao.QuoteDao - No quote found for this symbol
+2024-10-10 14:40:07,135 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Deleting all quotes
+2024-10-10 14:40:07,138 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - All quotes deleted successfully
+2024-10-10 14:40:07,138 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Fetching all quotes
+2024-10-10 14:40:07,138 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Found {} quotes
+2024-10-10 14:40:07,147 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 14:40:07,151 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 14:40:07,151 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Fetching quote with symbol
+2024-10-10 14:40:07,153 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Found quote
+2024-10-10 14:40:07,189 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Fetching all quotes
+2024-10-10 14:40:07,191 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Found {} quotes
+2024-10-10 14:40:07,223 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Deleting quote and associated positions
+2024-10-10 14:40:07,224 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote and positions deleted successfully
+2024-10-10 14:40:07,224 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Fetching quote with symbol
+2024-10-10 14:40:07,225 [main] WARN  ca.jrvs.apps.stockquote.dao.QuoteDao - No quote found for this symbol
+2024-10-10 14:40:07,237 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Deleting all quotes
+2024-10-10 14:40:07,241 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - All quotes deleted successfully
+2024-10-10 14:40:07,241 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Fetching all quotes
+2024-10-10 14:40:07,241 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Found {} quotes
+2024-10-10 14:40:07,259 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 14:40:07,261 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 14:40:07,262 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Fetching quote with symbol
+2024-10-10 14:40:07,263 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Found quote
+2024-10-10 14:40:07,276 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Fetching all quotes
+2024-10-10 14:40:07,278 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Found {} quotes
+2024-10-10 14:42:01,379 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 14:42:01,392 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 14:42:03,085 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 14:42:03,091 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 14:42:04,165 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 14:42:04,171 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 14:42:04,209 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 14:42:04,211 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 14:42:04,212 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Fetched 1 positions from the database.
+2024-10-10 14:42:04,248 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 14:42:04,250 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 14:42:04,274 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 14:42:04,276 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 14:42:04,277 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Fetched 1 positions from the database.
+2024-10-10 14:42:04,291 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Deleting quote and associated positions
+2024-10-10 14:42:04,295 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote and positions deleted successfully
+2024-10-10 14:42:04,295 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Fetching quote with symbol
+2024-10-10 14:42:04,296 [main] WARN  ca.jrvs.apps.stockquote.dao.QuoteDao - No quote found for this symbol
+2024-10-10 14:42:04,338 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Deleting all quotes
+2024-10-10 14:42:04,350 [main] ERROR ca.jrvs.apps.stockquote.dao.QuoteDao - Error deleting all quotes
+org.postgresql.util.PSQLException: ERROR: update or delete on table "quote" violates foreign key constraint "symbol_fk" on table "position"
+  Détail : Key (symbol)=(AAPL12) is still referenced from table "position".
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2440)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2183)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:308)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:441)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:365)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:143)
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:120)
+	at ca.jrvs.apps.stockquote.dao.QuoteDao.deleteAll(QuoteDao.java:129)
+	at ca.jrvs.apps.stockquote.dao.QuoteDaoTest.testDeleteAllQuotes(QuoteDaoTest.java:75)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.vintage.engine.execution.RunnerExecutor.execute(RunnerExecutor.java:43)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:212)
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1939)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:556)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:546)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:611)
+	at org.junit.vintage.engine.VintageTestEngine.executeAllChildren(VintageTestEngine.java:82)
+	at org.junit.vintage.engine.VintageTestEngine.execute(VintageTestEngine.java:73)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:108)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:96)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:75)
+	at org.apache.maven.surefire.junitplatform.LazyLauncher.execute(LazyLauncher.java:56)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:184)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:148)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:122)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+2024-10-10 14:42:04,364 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 14:42:04,366 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 14:42:04,366 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Fetching quote with symbol
+2024-10-10 14:42:04,367 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Found quote
+2024-10-10 14:42:04,377 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Fetching all quotes
+2024-10-10 14:42:04,378 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Found {} quotes
+2024-10-10 14:42:04,391 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Deleting quote and associated positions
+2024-10-10 14:42:04,393 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote and positions deleted successfully
+2024-10-10 14:42:04,393 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Fetching quote with symbol
+2024-10-10 14:42:04,393 [main] WARN  ca.jrvs.apps.stockquote.dao.QuoteDao - No quote found for this symbol
+2024-10-10 14:42:04,413 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Deleting all quotes
+2024-10-10 14:42:04,416 [main] ERROR ca.jrvs.apps.stockquote.dao.QuoteDao - Error deleting all quotes
+org.postgresql.util.PSQLException: ERROR: update or delete on table "quote" violates foreign key constraint "symbol_fk" on table "position"
+  Détail : Key (symbol)=(AAPL12) is still referenced from table "position".
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2440)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2183)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:308)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:441)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:365)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:143)
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:120)
+	at ca.jrvs.apps.stockquote.dao.QuoteDao.deleteAll(QuoteDao.java:129)
+	at ca.jrvs.apps.stockquote.dao.QuoteDao_IntTest.testDeleteAllQuotes(QuoteDao_IntTest.java:82)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.vintage.engine.execution.RunnerExecutor.execute(RunnerExecutor.java:43)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:212)
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1939)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:556)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:546)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:611)
+	at org.junit.vintage.engine.VintageTestEngine.executeAllChildren(VintageTestEngine.java:82)
+	at org.junit.vintage.engine.VintageTestEngine.execute(VintageTestEngine.java:73)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:108)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:96)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:75)
+	at org.apache.maven.surefire.junitplatform.LazyLauncher.execute(LazyLauncher.java:56)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:184)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:148)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:122)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+2024-10-10 14:42:04,429 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-10 14:42:04,431 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-10 14:42:04,431 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Fetching quote with symbol
+2024-10-10 14:42:04,434 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Found quote
+2024-10-10 14:42:04,448 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Fetching all quotes
+2024-10-10 14:42:04,449 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Found {} quotes
+2024-10-14 15:32:19,196 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Reading properties from properties.txt
+2024-10-14 15:32:19,197 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Properties loaded successfully
+2024-10-14 15:32:19,197 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Loading database driver: {}
+2024-10-14 15:32:19,207 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Database driver loaded successfully
+2024-10-14 15:32:19,507 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Connecting to the database
+2024-10-14 15:32:19,787 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Database connection established successfully
+2024-10-14 15:32:19,789 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Starting the StockQuoteController UI
+2024-10-14 15:32:19,791 [main] INFO  ca.jrvs.apps.stockquote.dao.StockQuoteController - Initializing Stock Quote App client
+2024-10-14 15:32:23,301 [main] INFO  ca.jrvs.apps.stockquote.dao.StockQuoteController - Fetching stock information
+2024-10-14 15:32:23,302 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Fetching all quotes
+2024-10-14 15:32:23,340 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Found {} quotes
+2024-10-14 15:32:30,189 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Saving quote
+2024-10-14 15:32:30,207 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Quote saved successfully 
+2024-10-14 15:32:30,207 [main] INFO  ca.jrvs.apps.stockquote.dao.StockQuoteController - Displaying stock information for AAPL
+2024-10-14 15:32:30,215 [main] WARN  ca.jrvs.apps.stockquote.dao.StockQuoteController - No stock for ticker: AAPL found in the portfolio
+2024-10-14 15:32:30,215 [main] INFO  ca.jrvs.apps.stockquote.dao.StockQuoteController - Initializing Stock Quote App client
+2024-10-14 15:32:36,524 [main] INFO  ca.jrvs.apps.stockquote.dao.StockQuoteController - Exiting Stock Quote App
+2024-10-21 17:21:30,096 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Reading properties from properties.txt
+2024-10-21 17:21:30,097 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Properties loaded successfully
+2024-10-21 17:21:30,097 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Loading database driver: {}
+2024-10-21 17:21:30,105 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Database driver loaded successfully
+2024-10-21 17:21:30,323 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Connecting to the database
+2024-10-21 17:21:30,337 [main] ERROR ca.jrvs.apps.stockquote.dao.QuoteDao - Error connecting to the database
+org.postgresql.util.PSQLException: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:280)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:49)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:195)
+	at org.postgresql.Driver.makeConnection(Driver.java:454)
+	at org.postgresql.Driver.connect(Driver.java:256)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at ca.jrvs.apps.stockquote.dao.Main.main(Main.java:55)
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:607)
+	at org.postgresql.core.PGStream.<init>(PGStream.java:70)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:91)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:192)
+	... 7 more
+2024-10-21 17:21:57,178 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Reading properties from properties.txt
+2024-10-21 17:21:57,179 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Properties loaded successfully
+2024-10-21 17:21:57,179 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Loading database driver: {}
+2024-10-21 17:21:57,187 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Database driver loaded successfully
+2024-10-21 17:21:57,416 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Connecting to the database
+2024-10-21 17:21:57,431 [main] ERROR ca.jrvs.apps.stockquote.dao.QuoteDao - Error connecting to the database
+org.postgresql.util.PSQLException: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:280)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:49)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:195)
+	at org.postgresql.Driver.makeConnection(Driver.java:454)
+	at org.postgresql.Driver.connect(Driver.java:256)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at ca.jrvs.apps.stockquote.dao.Main.main(Main.java:55)
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:607)
+	at org.postgresql.core.PGStream.<init>(PGStream.java:70)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:91)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:192)
+	... 7 more
+2024-10-21 17:22:01,857 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Reading properties from properties.txt
+2024-10-21 17:22:01,858 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Properties loaded successfully
+2024-10-21 17:22:01,858 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Loading database driver: {}
+2024-10-21 17:22:01,864 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Database driver loaded successfully
+2024-10-21 17:22:02,046 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Connecting to the database
+2024-10-21 17:22:02,059 [main] ERROR ca.jrvs.apps.stockquote.dao.QuoteDao - Error connecting to the database
+org.postgresql.util.PSQLException: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:280)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:49)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:195)
+	at org.postgresql.Driver.makeConnection(Driver.java:454)
+	at org.postgresql.Driver.connect(Driver.java:256)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at ca.jrvs.apps.stockquote.dao.Main.main(Main.java:55)
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:607)
+	at org.postgresql.core.PGStream.<init>(PGStream.java:70)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:91)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:192)
+	... 7 more
+2024-10-21 17:28:29,934 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Reading properties from properties.txt
+2024-10-21 17:28:29,935 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Properties loaded successfully
+2024-10-21 17:28:29,935 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Loading database driver: {}
+2024-10-21 17:28:29,942 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Database driver loaded successfully
+2024-10-21 17:28:30,153 [main] INFO  ca.jrvs.apps.stockquote.dao.QuoteDao - Connecting to the database
+2024-10-21 17:28:30,170 [main] ERROR ca.jrvs.apps.stockquote.dao.QuoteDao - Error connecting to the database
+org.postgresql.util.PSQLException: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:280)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:49)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:195)
+	at org.postgresql.Driver.makeConnection(Driver.java:454)
+	at org.postgresql.Driver.connect(Driver.java:256)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at ca.jrvs.apps.stockquote.dao.Main.main(Main.java:55)
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:607)
+	at org.postgresql.core.PGStream.<init>(PGStream.java:70)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:91)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:192)
+	... 7 more
