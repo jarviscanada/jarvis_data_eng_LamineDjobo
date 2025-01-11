@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ddebec0-8ab5-4d2f-82f6-90c0d28ac324" name="Changes" comment="practice file" />
+    <list default="true" id="3ddebec0-8ab5-4d2f-82f6-90c0d28ac324" name="Changes" comment="practice file">
+      <change beforePath="$PROJECT_DIR$/practice/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/practice/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/.idea/practice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/practice/.idea/practice.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/practice/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/practice/practice/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/practice/src/main/java/ca/jrvs/practice/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/practice/practice/src/main/java/ca/jrvs/practice/App.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,18 +36,18 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Lamine005"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Lamine005&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/jarviscanada/jarvis_data_eng_LamineDjobo.git",
-    "accountId": "4bf59b31-2abe-479b-8f70-78143a9f37f2"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/jarviscanada/jarvis_data_eng_LamineDjobo.git&quot;,
+    &quot;accountId&quot;: &quot;4bf59b31-2abe-479b-8f70-78143a9f37f2&quot;
   }
-}]]></component>
+}</component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -59,8 +64,9 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "#2 on develop",
-    "kotlin-language-version-configured": "true"
+    "git-widget-placeholder": "feature/practice",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/laminedjobo/JDBC"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
