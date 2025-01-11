@@ -5,5 +5,17 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface PositionDao extends JpaRepository<Position,Integer> {
+public interface PositionDao extends JpaRepository<Position, Integer> {
+
+    @Override
+    @Deprecated
+    default <S extends Position> S save(S entity) {
+        throw new UnsupportedOperationException("Save operation is not supported for Position view");
+    }
+
+    @Override
+    @Deprecated
+    default void deleteById(Integer integer) {
+        throw new UnsupportedOperationException("Delete operation is not supported for Position view");
+    }
 }
