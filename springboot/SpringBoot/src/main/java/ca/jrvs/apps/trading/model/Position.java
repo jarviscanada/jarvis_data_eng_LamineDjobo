@@ -1,9 +1,11 @@
 package ca.jrvs.apps.trading.model;
 
 import jakarta.persistence.*;
+import org.hibernate.annotations.Immutable;
 
 @Entity
 @Table(name = "position", schema = "public")
+@Immutable
 public class Position {
 
     @Id

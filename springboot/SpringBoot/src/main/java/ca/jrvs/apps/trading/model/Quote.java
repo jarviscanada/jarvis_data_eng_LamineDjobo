@@ -25,6 +25,19 @@ public class Quote {
     @Column(name = "ask_size", nullable = false)
     private Integer askSize;
 
+    // Constructeur par défaut
+    public Quote() {}
+
+    // Constructeur avec tous les paramètres
+    public Quote(String ticker, double askPrice, int askSize, double bidPrice, int bidSize, double lastPrice) {
+        this.ticker = ticker;
+        this.askPrice = askPrice;
+        this.askSize = askSize;
+        this.bidPrice = bidPrice;
+        this.bidSize = bidSize;
+        this.lastPrice = lastPrice;
+    }
+
     public String getTicker() {
         return ticker;
     }

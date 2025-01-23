@@ -51,18 +51,19 @@ public class DashboardService {
     public PortfolioView getProfileViewByTraderId(Integer traderId) {
         Account account = findAccountByTraderId(traderId);
 
-        List<SecurityRow> securityRows = positionDao.findAll().stream()
+        List<SecurityRow> securityRows = positionDao.findAllDTO().stream()
                 .filter(position -> position.getAccountId().equals(account.getId()))
-                .map(position -> {
-                    double marketPrice = quoteDao.findById(position.getTicker())
+                .map(positionDTO -> {
+                    double marketPrice = quoteDao.findById(positionDTO.getTicker())
                             .orElseThrow(() -> new IllegalArgumentException("Quote non trouvée pour le ticker"))
                             .getLastPrice();
-                    return new SecurityRow(position.getTicker(), position.getPosition(), marketPrice);
+                    return new SecurityRow(positionDTO.getTicker(), positionDTO.getPosition(), marketPrice);
                 })
                 .collect(Collectors.toList());
 
         return new PortfolioView(securityRows);
     }
+
 
     /**
      * Méthode helper pour trouver le compte correspondant au trader

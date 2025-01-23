@@ -1,6 +1,7 @@
 package ca.jrvs.apps.trading.service;
 
 
+import ca.jrvs.apps.trading.dto.PositionDTO;
 import ca.jrvs.apps.trading.model.*;
 import ca.jrvs.apps.trading.repository.AccountJpaRepository;
 import ca.jrvs.apps.trading.repository.PositionDao;
@@ -8,8 +9,12 @@ import ca.jrvs.apps.trading.repository.QuoteDao;
 import ca.jrvs.apps.trading.repository.SecurityOrderDao;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
+import java.util.Optional;
 
 @Service
+@Transactional
 public class OrderService {
 
     private final AccountJpaRepository accountDao;
@@ -83,10 +88,11 @@ public class OrderService {
      * Helper pour gérer la vente.
      */
     protected void handleSellMarketOrder(MarketOrder marketOrder, SecurityOrder securityOrder, Account account) {
-        Position position = positionDao.findByAccountIdAndTicker(account.getId(), marketOrder.getTicker())
-                .orElseThrow(() -> new IllegalArgumentException("Position introuvable pour la vente"));
+        // Récupération de la position du compte pour le ticker donné
+        Optional<PositionDTO> positionDTO = positionDao.findByAccountIdAndTicker(account.getId(), marketOrder.getTicker());
 
-        if (position.getPosition() < securityOrder.getSize()) {
+        // Vérification de la position disponible
+        if (positionDTO.isEmpty() || positionDTO.get().getPosition() < securityOrder.getSize()) {
             securityOrder.setStatus("CANCELED");
             securityOrder.setNotes("Position insuffisante pour vendre");
             throw new IllegalArgumentException("Position insuffisante.");
@@ -97,11 +103,15 @@ public class OrderService {
                 .orElseThrow(() -> new IllegalArgumentException("Ticker non trouvé"));
         double totalGain = quote.getBidPrice() * securityOrder.getSize();
 
+        // Mettre à jour le solde du compte après la vente
         account.setAmount(account.getAmount() + totalGain);
         securityOrder.setPrice(quote.getBidPrice());
         securityOrder.setStatus("FILLED");
+
+        // Sauvegarder les modifications du compte
         accountDao.save(account);
     }
+
 
     /**
      * Validation de la requête d'ordre de marché.
