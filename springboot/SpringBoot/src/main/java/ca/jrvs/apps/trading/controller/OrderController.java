@@ -22,9 +22,6 @@ public class OrderController {
         this.orderService = orderService;
     }
 
-    /**
-     * Soumettre un ordre de marché.
-     */
     @PostMapping("/marketOrder")
     public ResponseEntity<SecurityOrder> postMarketOrder(@RequestBody MarketOrder orderData) {
         try {

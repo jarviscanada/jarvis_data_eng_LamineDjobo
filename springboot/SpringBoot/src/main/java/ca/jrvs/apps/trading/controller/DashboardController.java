@@ -23,7 +23,9 @@ public class DashboardController {
     }
 
     /**
-     * Afficher le profil d'un trader par son ID
+     *
+     * @param traderId
+     * @return
      */
     @GetMapping("/profile/traderId/{traderId}")
     public ResponseEntity<TraderAccountView> getAccount(@PathVariable Integer traderId) {
@@ -41,7 +43,9 @@ public class DashboardController {
     }
 
     /**
-     * Afficher le portefeuille d'un trader par son ID
+     *
+     * @param traderId
+     * @return
      */
     @GetMapping("/portfolio/traderId/{traderId}")
     public ResponseEntity<PortfolioView> getPortfolioView(@PathVariable Integer traderId) {

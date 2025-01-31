@@ -24,102 +24,118 @@ public class QuoteController {
     }
 
     /**
-     * Récupérer une cotation depuis l'API et la sauvegarder dans la base de données.
-     * URL : GET http://localhost:8080/quote/iex/ticker/{ticker}
+     * Get quote details for a specific ticker.
+     *
+     * @param ticker The stock ticker symbol (e.g., "AAPL").
+     * @return ResponseEntity containing the retrieved quote.
+     * URL: GET http://localhost:8080/quote/iex/ticker/{ticker}
      */
     @GetMapping("/iex/ticker/{ticker}")
     public ResponseEntity<Quote> getQuote(@PathVariable String ticker) {
-        logger.info("Requête reçue pour le ticker : {}", ticker);
+        logger.info("Request received for ticker: {}", ticker);
         try {
-            Quote savedQuote = quoteService.saveQuoteFromTicker(ticker);  // Appelle la méthode pour sauvegarder le ticker
+            Quote savedQuote = quoteService.saveQuoteFromTicker(ticker);
             return new ResponseEntity<>(savedQuote, HttpStatus.OK);
         } catch (IllegalArgumentException e) {
-            logger.error("Erreur : {}", e.getMessage());
-            return new ResponseEntity<>(null, HttpStatus.BAD_REQUEST);  // 400 BAD REQUEST
+            logger.error("Error: {}", e.getMessage());
+            return new ResponseEntity<>(null, HttpStatus.BAD_REQUEST);
         } catch (Exception e) {
-            logger.error("Erreur interne du serveur : {}", e.getMessage());
-            return new ResponseEntity<>(null, HttpStatus.INTERNAL_SERVER_ERROR);  // 500 INTERNAL SERVER ERROR
+            logger.error("Internal server error: {}", e.getMessage());
+            return new ResponseEntity<>(null, HttpStatus.INTERNAL_SERVER_ERROR);
         }
     }
 
     /**
-     * Récupérer toutes les cotations stockées dans la base de données.
-     * URL : GET http://localhost:8080/quote/all
+     * Retrieve all stored quotes.
+     *
+     * @return ResponseEntity containing a list of all quotes.
+     * URL: GET http://localhost:8080/quote/all
      */
     @GetMapping("/all")
     public ResponseEntity<List<Quote>> getAllQuotes() {
-        logger.info("Requête reçue pour récupérer toutes les cotations.");
+        logger.info("Request received to retrieve all quotes.");
         List<Quote> quotes = quoteService.findAllQuotes();
         return new ResponseEntity<>(quotes, HttpStatus.OK);
     }
 
     /**
-     * Mettre à jour toutes les cotations en base avec les données de l'API.
-     * URL : PUT http://localhost:8080/quote/iexMarketData
+     * Update all market data quotes from an external API.
+     *
+     * @return ResponseEntity indicating the update status.
+     * URL: PUT http://localhost:8080/quote/iexMarketData
      */
     @PutMapping("/iexMarketData")
     public ResponseEntity<String> updateMarketData() {
-        logger.info("Requête reçue pour mettre à jour les données de marché.");
+        logger.info("Request received to update market data.");
         try {
-            quoteService.updateMarketData();  // Met à jour toutes les cotations
-            return new ResponseEntity<>("Toutes les données de marché ont été mises à jour avec succès.", HttpStatus.OK);
+            quoteService.updateMarketData();
+            return new ResponseEntity<>("All market data successfully updated.", HttpStatus.OK);
         } catch (Exception e) {
-            logger.error("Erreur lors de la mise à jour des données de marché : {}", e.getMessage());
-            return new ResponseEntity<>("Erreur lors de la mise à jour des données de marché.", HttpStatus.INTERNAL_SERVER_ERROR);
+            logger.error("Error updating market data: {}", e.getMessage());
+            return new ResponseEntity<>("Error updating market data.", HttpStatus.INTERNAL_SERVER_ERROR);
         }
     }
 
     /**
-     * Mettre à jour un `Quote` spécifique dans la table des cotations sans validation.
-     * URL : PUT http://localhost:8080/quote/
+     * Update a specific `Quote` in the quotes table without validation.
+     *
+     * @param quote The `Quote` object to be updated.
+     * @return ResponseEntity containing the updated quote.
+     * URL: PUT http://localhost:8080/quote/
      */
     @PutMapping("/")
     public ResponseEntity<Quote> putQuote(@RequestBody Quote quote) {
-        logger.info("Requête reçue pour mettre à jour le quote : {}", quote);
+        logger.info("Request received to update quote: {}", quote);
         try {
             Quote updatedQuote = quoteService.saveQuoteEntity(quote);
             return new ResponseEntity<>(updatedQuote, HttpStatus.OK);  // 200 OK
         } catch (IllegalArgumentException e) {
-            logger.error("Erreur de validation lors de la mise à jour : {}", e.getMessage());
+            logger.error("Validation error during update: {}", e.getMessage());
             return new ResponseEntity<>(null, HttpStatus.BAD_REQUEST);  // 400 BAD REQUEST
         } catch (Exception e) {
-            logger.error("Erreur interne du serveur : {}", e.getMessage());
+            logger.error("Internal server error: {}", e.getMessage());
             return new ResponseEntity<>(null, HttpStatus.INTERNAL_SERVER_ERROR);  // 500 INTERNAL SERVER ERROR
         }
     }
 
     /**
-     * Ajouter un nouveau ticker dans la table des cotations.
-     * URL : POST http://localhost:8080/quote/tickerId/{tickerId}
+     * Add a new ticker to the quotes table.
+     *
+     * @param tickerId The stock ticker symbol to be added.
+     * @return ResponseEntity containing the newly created quote.
+     * URL: POST http://localhost:8080/quote/tickerId/{tickerId}
      */
+
     @PostMapping("/tickerId/{tickerId}")
     public ResponseEntity<Quote> createQuote(@PathVariable String tickerId) {
-        logger.info("Requête reçue pour ajouter un nouveau ticker : {}", tickerId);
+        logger.info("Request received to add a new ticker: {}", tickerId);
         try {
-            // Appelle la méthode qui prend un `ticker` pour récupérer l'`IexQuote` et le convertir en `Quote`.
+            // Calls the method that retrieves an `IexQuote` from the API and converts it to `Quote`.
             Quote newQuote = quoteService.saveQuoteFromTicker(tickerId);
             return new ResponseEntity<>(newQuote, HttpStatus.CREATED);  // 201 CREATED
         } catch (IllegalArgumentException e) {
-            logger.error("Erreur de validation pour le ticker {} : {}", tickerId, e.getMessage());
+            logger.error("Validation error for ticker {}: {}", tickerId, e.getMessage());
             return new ResponseEntity<>(null, HttpStatus.BAD_REQUEST);  // 400 BAD REQUEST
         } catch (Exception e) {
-            logger.error("Erreur interne du serveur : {}", e.getMessage());
+            logger.error("Internal server error: {}", e.getMessage());
             return new ResponseEntity<>(null, HttpStatus.INTERNAL_SERVER_ERROR);  // 500 INTERNAL SERVER ERROR
         }
     }
 
     /**
-     * Afficher la liste quotidienne des cotations stockées.
-     * URL : GET http://localhost:8080/quote/dailyList
+     * Retrieve the daily list of stored quotes.
+     *
+     * @return ResponseEntity containing a list of quotes stored for daily tracking.
+     * URL: GET http://localhost:8080/quote/dailyList
      */
     @GetMapping("/dailyList")
     public ResponseEntity<List<Quote>> getDailyList() {
-        logger.info("Requête reçue pour afficher la liste quotidienne des cotations.");
+        logger.info("Request received to fetch the daily quote list.");
         try {
             List<Quote> quotes = quoteService.findAllQuotes();
             return new ResponseEntity<>(quotes, HttpStatus.OK);  // 200 OK
         } catch (Exception e) {
-            logger.error("Erreur lors de l'affichage de la liste quotidienne : {}", e.getMessage());
+            logger.error("Error retrieving the daily list: {}", e.getMessage());
             return new ResponseEntity<>(null, HttpStatus.INTERNAL_SERVER_ERROR);  // 500 INTERNAL SERVER ERROR
         }
     }
